@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Wade&#39;blog</title>
+  <title></title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wadestack.github.io/"/>
-  <updated>2020-04-21T04:11:47.894Z</updated>
+  <updated>2020-04-21T04:41:12.490Z</updated>
   <id>https://wadestack.github.io/</id>
   
   <author>
@@ -15,6 +15,64 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2020TW暑假实习面经</title>
+    <link href="https://wadestack.github.io/2020/04/20/tw%E5%AE%9E%E4%B9%A0%E9%9D%A2%E7%BB%8F/"/>
+    <id>https://wadestack.github.io/2020/04/20/tw%E5%AE%9E%E4%B9%A0%E9%9D%A2%E7%BB%8F/</id>
+    <published>2020-04-19T16:00:00.000Z</published>
+    <updated>2020-04-21T04:41:12.490Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1 id=&quot;了解思特沃克&quot;&gt;&lt;a href=&quot;#了解思特沃克&quot; class=&quot;headerlink&quot; title=&quot;了解思特沃克&quot;&gt;&lt;/a&gt;了解思特沃克&lt;/h1&gt;&lt;h2 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="面经" scheme="https://wadestack.github.io/categories/%E9%9D%A2%E7%BB%8F/"/>
+    
+    
+      <category term="思特沃克" scheme="https://wadestack.github.io/tags/%E6%80%9D%E7%89%B9%E6%B2%83%E5%85%8B/"/>
+    
+      <category term="实习面经" scheme="https://wadestack.github.io/tags/%E5%AE%9E%E4%B9%A0%E9%9D%A2%E7%BB%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hr面题库</title>
+    <link href="https://wadestack.github.io/2020/04/15/hr%E9%9D%A2%E9%A2%98%E5%BA%93/"/>
+    <id>https://wadestack.github.io/2020/04/15/hr%E9%9D%A2%E9%A2%98%E5%BA%93/</id>
+    <published>2020-04-14T16:00:00.000Z</published>
+    <updated>2020-04-21T04:43:24.597Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt; [TOC]&lt;/p&gt;
+&lt;h1 id=&quot;自我相关&quot;&gt;&lt;a href=&quot;#自我相关&quot; class=&quot;headerlink&quot; title=&quot;自我相关&quot;&gt;&lt;/a&gt;自我相关&lt;/h1&gt;&lt;h2 id=&quot;1-请你做一下自我介绍&quot;&gt;&lt;a href=&quot;#1-请你做一下自我介绍&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="面试题" scheme="https://wadestack.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+    
+      <category term="hr面" scheme="https://wadestack.github.io/tags/hr%E9%9D%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>一个后端开发工程师需要掌握什么</title>
@@ -74,6 +132,39 @@
   </entry>
   
   <entry>
+    <title>线程-进程-协程</title>
+    <link href="https://wadestack.github.io/2020/03/20/%E7%BA%BF%E7%A8%8B-%E8%BF%9B%E7%A8%8B-%E5%8D%8F%E7%A8%8B/"/>
+    <id>https://wadestack.github.io/2020/03/20/%E7%BA%BF%E7%A8%8B-%E8%BF%9B%E7%A8%8B-%E5%8D%8F%E7%A8%8B/</id>
+    <published>2020-03-19T16:00:00.000Z</published>
+    <updated>2020-04-21T04:44:55.537Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Python中因为有GIL(全局解释器锁)的存在，例如，某个线程想要执行，必须先拿到GIL，我们可以把GIL看作“通行证”，并且在一个Python进程中，GIL只有一个。拿不到通行证的线程就不允许进入CPU执行。每次释放GIL锁，线程之间都会进行锁竞争，而切换线程会消耗资源
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Python" scheme="https://wadestack.github.io/categories/Python/"/>
+    
+    
+      <category term="Python" scheme="https://wadestack.github.io/tags/Python/"/>
+    
+      <category term="线程" scheme="https://wadestack.github.io/tags/%E7%BA%BF%E7%A8%8B/"/>
+    
+      <category term="进程" scheme="https://wadestack.github.io/tags/%E8%BF%9B%E7%A8%8B/"/>
+    
+      <category term="协程" scheme="https://wadestack.github.io/tags/%E5%8D%8F%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
     <title>谈谈我为什么将博客迁移到GitHub</title>
     <link href="https://wadestack.github.io/2020/03/10/%E6%9D%82%E8%B0%881.-%E8%B0%88%E8%B0%88%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%B0%86%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E5%88%B0GitHub-wiki/"/>
     <id>https://wadestack.github.io/2020/03/10/%E6%9D%82%E8%B0%881.-%E8%B0%88%E8%B0%88%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%B0%86%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E5%88%B0GitHub-wiki/</id>
@@ -98,6 +189,34 @@
     
     
       <category term="博客" scheme="https://wadestack.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>怎么做自我介绍?</title>
+    <link href="https://wadestack.github.io/2020/02/15/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
+    <id>https://wadestack.github.io/2020/02/15/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/</id>
+    <published>2020-02-14T16:00:00.000Z</published>
+    <updated>2020-04-21T04:46:59.545Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h1 id=&quot;讲什么？&quot;&gt;&lt;a href=&quot;#讲什么？&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="面试" scheme="https://wadestack.github.io/categories/%E9%9D%A2%E8%AF%95/"/>
+    
+    
+      <category term="自我介绍" scheme="https://wadestack.github.io/tags/%E8%87%AA%E6%88%91%E4%BB%8B%E7%BB%8D/"/>
     
   </entry>
   
@@ -471,67 +590,6 @@
     
     
       <category term="最值" scheme="https://wadestack.github.io/tags/%E6%9C%80%E5%80%BC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>写一个函数找出一个整数数组中，第二大的数</title>
-    <link href="https://wadestack.github.io/2019/09/09/%E7%AE%97%E6%B3%952.-%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E6%89%BE%E5%87%BA%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E6%95%B0%E7%BB%84%E4%B8%AD%EF%BC%8C%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E6%95%B0/"/>
-    <id>https://wadestack.github.io/2019/09/09/%E7%AE%97%E6%B3%952.-%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E6%89%BE%E5%87%BA%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E6%95%B0%E7%BB%84%E4%B8%AD%EF%BC%8C%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E6%95%B0/</id>
-    <published>2019-09-08T16:00:00.000Z</published>
-    <updated>2020-04-21T04:03:07.939Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;扩展问题：&quot;&gt;&lt;a href=&quot;#扩展问题：&quot; class=&quot;headerlink&quot; title=&quot;扩展问题：&quot;&gt;&lt;/a&gt;扩展问题：&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;写一个函数找出一个整数数组中，第k大的数（堆排序）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2
-        
-      
-    
-    </summary>
-    
-    
-      <category term="算法" scheme="https://wadestack.github.io/categories/%E7%AE%97%E6%B3%95/"/>
-    
-    
-      <category term="堆排序" scheme="https://wadestack.github.io/tags/%E5%A0%86%E6%8E%92%E5%BA%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>二进制总结</title>
-    <link href="https://wadestack.github.io/2019/02/07/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%801.-%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%80%BB%E7%BB%93/"/>
-    <id>https://wadestack.github.io/2019/02/07/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%801.-%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%80%BB%E7%BB%93/</id>
-    <published>2019-02-06T16:00:00.000Z</published>
-    <updated>2020-04-21T04:01:38.998Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;1-编码&quot;&gt;&lt;a href=&quot;#1-编码&quot; class=&quot;headerlink&quot; title=&quot;1.编码&quot;&gt;&lt;/a&gt;1.编码&lt;/h3&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;left&quot;&gt;&lt;/th&gt;
-&lt;th
-        
-      
-    
-    </summary>
-    
-    
-      <category term="计算机基础" scheme="https://wadestack.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
-    
-    
-      <category term="二进制" scheme="https://wadestack.github.io/tags/%E4%BA%8C%E8%BF%9B%E5%88%B6/"/>
     
   </entry>
   
