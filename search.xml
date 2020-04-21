@@ -20,31 +20,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Java0.-学习资源</title>
-    <url>/2020/04/21/Java0.-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</url>
-    <content><![CDATA[<h3 id="github"><a href="#github" class="headerlink" title="github:"></a>github:</h3><ul>
-<li><p><a href="https://github.com/akullpp/awesome-java" target="_blank" rel="noopener">awesome-java</a></p>
-</li>
-<li><p><a href="https://github.com/Snailclimb/awesome-java" target="_blank" rel="noopener">awesome-java</a></p>
-</li>
-<li><p><a href="https://github.com/jobbole/awesome-java-cn" target="_blank" rel="noopener">awesome-java-cn</a></p>
-</li>
-<li><p><a href="https://github.com/Blankj/awesome-java-leetcode" target="_blank" rel="noopener">awesome-java-leetcode</a></p>
-</li>
-<li><p><a href="https://github.com/sorenduan/awesome-java-books" target="_blank" rel="noopener">awesome-java-books</a></p>
-</li>
-</ul>
-<h3 id="book"><a href="#book" class="headerlink" title="book"></a>book</h3><ul>
-<li><p><a href="https://weread.qq.com/web/reader/b51320f05e159eb51b29226kc81322c012c81e728d9d180" target="_blank" rel="noopener">Java编程的逻辑</a></p>
-</li>
-<li><ul>
-<li><a href="https://github.com/swiftma/program-logic" target="_blank" rel="noopener">配套代码</a></li>
-</ul>
-</li>
-</ul>
-]]></content>
-  </entry>
-  <entry>
     <title>Git2.-github骚操作</title>
     <url>/2020/04/21/Git2.-github%E9%AA%9A%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p><strong>整理自尚硅谷周阳老师</strong></p>
@@ -71,15 +46,40 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Java1.-谈谈对Java的理解</title>
-    <url>/2020/04/21/Java1.-%E8%B0%88%E8%B0%88%E5%AF%B9Java%E7%9A%84%E7%90%86%E8%A7%A3/</url>
-    <content><![CDATA[<h1 id="1-平台无关性"><a href="#1-平台无关性" class="headerlink" title="1.平台无关性"></a>1.平台无关性</h1><h1 id="2-GC"><a href="#2-GC" class="headerlink" title="2.GC"></a>2.GC</h1><h1 id="3-面向对象"><a href="#3-面向对象" class="headerlink" title="3.面向对象"></a>3.面向对象</h1><h1 id="4-类库"><a href="#4-类库" class="headerlink" title="4.类库"></a>4.类库</h1><h1 id="5-语言特性"><a href="#5-语言特性" class="headerlink" title="5.语言特性"></a>5.语言特性</h1><h1 id="6-异常处理"><a href="#6-异常处理" class="headerlink" title="6.异常处理"></a>6.异常处理</h1>]]></content>
+    <title>Java0.-学习资源</title>
+    <url>/2020/04/21/Java0.-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</url>
+    <content><![CDATA[<h3 id="github"><a href="#github" class="headerlink" title="github:"></a>github:</h3><ul>
+<li><p><a href="https://github.com/akullpp/awesome-java" target="_blank" rel="noopener">awesome-java</a></p>
+</li>
+<li><p><a href="https://github.com/Snailclimb/awesome-java" target="_blank" rel="noopener">awesome-java</a></p>
+</li>
+<li><p><a href="https://github.com/jobbole/awesome-java-cn" target="_blank" rel="noopener">awesome-java-cn</a></p>
+</li>
+<li><p><a href="https://github.com/Blankj/awesome-java-leetcode" target="_blank" rel="noopener">awesome-java-leetcode</a></p>
+</li>
+<li><p><a href="https://github.com/sorenduan/awesome-java-books" target="_blank" rel="noopener">awesome-java-books</a></p>
+</li>
+</ul>
+<h3 id="book"><a href="#book" class="headerlink" title="book"></a>book</h3><ul>
+<li><p><a href="https://weread.qq.com/web/reader/b51320f05e159eb51b29226kc81322c012c81e728d9d180" target="_blank" rel="noopener">Java编程的逻辑</a></p>
+</li>
+<li><ul>
+<li><a href="https://github.com/swiftma/program-logic" target="_blank" rel="noopener">配套代码</a></li>
+</ul>
+</li>
+</ul>
+]]></content>
   </entry>
   <entry>
     <title>Home</title>
     <url>/2020/04/21/Home/</url>
     <content><![CDATA[<p>Welcome to the <a href="https://github.com/WadeStack" target="_blank" rel="noopener">WadeStack</a>‘blog!</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Java1.-谈谈对Java的理解</title>
+    <url>/2020/04/21/Java1.-%E8%B0%88%E8%B0%88%E5%AF%B9Java%E7%9A%84%E7%90%86%E8%A7%A3/</url>
+    <content><![CDATA[<h1 id="1-平台无关性"><a href="#1-平台无关性" class="headerlink" title="1.平台无关性"></a>1.平台无关性</h1><h1 id="2-GC"><a href="#2-GC" class="headerlink" title="2.GC"></a>2.GC</h1><h1 id="3-面向对象"><a href="#3-面向对象" class="headerlink" title="3.面向对象"></a>3.面向对象</h1><h1 id="4-类库"><a href="#4-类库" class="headerlink" title="4.类库"></a>4.类库</h1><h1 id="5-语言特性"><a href="#5-语言特性" class="headerlink" title="5.语言特性"></a>5.语言特性</h1><h1 id="6-异常处理"><a href="#6-异常处理" class="headerlink" title="6.异常处理"></a>6.异常处理</h1>]]></content>
   </entry>
   <entry>
     <title>Java2.-平台无关性如何实现</title>
@@ -107,6 +107,16 @@
 <p>解决方案：</p>
 <p>重新赋予环境变量PATH就行</p>
 <figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">export PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin</span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>Python2.-项目生成requirements</title>
+    <url>/2020/04/21/Python2.-%E9%A1%B9%E7%9B%AE%E7%94%9F%E6%88%90requirements/</url>
+    <content><![CDATA[<p>1.下载pipreqs<br><code>pip install pipreqs</code></p>
+<p>2.进入cmd命令行,进入到项目目录的上级目录</p>
+<p><code>pipreqs 项目名</code></p>
+<p>3.安装requirements</p>
+<p><code>pip install -r requirements.txt</code></p>
+]]></content>
   </entry>
   <entry>
     <title>Python1.-虚拟环境和包管理</title>
@@ -174,16 +184,6 @@
 
 <p>leetcode11题解</p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static int speedup&#x3D;[]()&#123;</span><br><span class="line">	ios_base::sync_with_stdio(false);</span><br><span class="line">	cin.tie(nullptr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;();</span><br><span class="line">class Solution</span><br><span class="line">&#123;</span><br><span class="line">public:</span><br><span class="line">    int maxArea(vector&lt;int&gt; &amp;height)</span><br><span class="line">    &#123;</span><br><span class="line">        int i &#x3D; 0, j &#x3D; height.size() - 1, water &#x3D; 0;</span><br><span class="line">        while (i &lt; j)</span><br><span class="line">        &#123;</span><br><span class="line">            int h &#x3D; min(height[i], height[j]);</span><br><span class="line">            water &#x3D; max(water, (j - i) * h);</span><br><span class="line">            while (height[i] &lt;&#x3D; h &amp;&amp; i &lt; j)</span><br><span class="line">                i++;</span><br><span class="line">            while (height[j] &lt;&#x3D; h &amp;&amp; i &lt; j)</span><br><span class="line">                j--;</span><br><span class="line">        &#125;</span><br><span class="line">        return water;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
-    <title>Python2.-项目生成requirements</title>
-    <url>/2020/04/21/Python2.-%E9%A1%B9%E7%9B%AE%E7%94%9F%E6%88%90requirements/</url>
-    <content><![CDATA[<p>1.下载pipreqs<br><code>pip install pipreqs</code></p>
-<p>2.进入cmd命令行,进入到项目目录的上级目录</p>
-<p><code>pipreqs 项目名</code></p>
-<p>3.安装requirements</p>
-<p><code>pip install -r requirements.txt</code></p>
 ]]></content>
   </entry>
   <entry>
@@ -255,6 +255,20 @@
 ]]></content>
   </entry>
   <entry>
+    <title>算法1.-不用加减乘除做加法</title>
+    <url>/2020/04/21/%E7%AE%97%E6%B3%951.-%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95/</url>
+    <content><![CDATA[<ol>
+<li>位运算<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;59ac416b4b944300b617d4f7f111b215</span><br><span class="line">&#x2F;&#x2F;来源：牛客网</span><br><span class="line">&#x2F;&#x2F;Java</span><br><span class="line">public class Solution &#123;</span><br><span class="line">    public int Add(int num1,int num2) &#123;</span><br><span class="line">        while (num2!&#x3D;0) &#123;</span><br><span class="line">            int temp &#x3D; num1^num2;</span><br><span class="line">            num2 &#x3D; (num1&amp;num2)&lt;&lt;1;</span><br><span class="line">            num1 &#x3D; temp;</span><br><span class="line">        &#125;</span><br><span class="line">        return num1;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;C++:</span><br><span class="line">class Solution &#123;</span><br><span class="line">public        </span><br><span class="line">    int Add(int num1, int num2)</span><br><span class="line">    &#123;</span><br><span class="line">        return num2?Add(num1^num2,(num1&amp;num2)&lt;&lt;1):num1;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></li>
+<li>汇编<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;59ac416b4b944300b617d4f7f111b215</span><br><span class="line">&#x2F;&#x2F;来源：牛客网</span><br><span class="line">int add(int a, int b)</span><br><span class="line">&#123;</span><br><span class="line">    _asm</span><br><span class="line">    &#123;</span><br><span class="line">        MOV EAX, a</span><br><span class="line">        MOV ECX, b</span><br><span class="line">        ADD EAX, ECX</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>自增自减<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;59ac416b4b944300b617d4f7f111b215</span><br><span class="line">&#x2F;&#x2F;来源：牛客网</span><br><span class="line"></span><br><span class="line">public class Solution &#123;</span><br><span class="line">    public int Add(int num1,int num2) &#123;</span><br><span class="line">        if(num1&gt;0)&#123;</span><br><span class="line">            while(num1--!&#x3D;0)</span><br><span class="line">                num2++;</span><br><span class="line">        &#125;</span><br><span class="line">        else if(num1&lt;0)&#123;</span><br><span class="line">            while(num1++!&#x3D;0)</span><br><span class="line">                num2--;</span><br><span class="line">        &#125;</span><br><span class="line">        return num2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+<li>通过指针<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;59ac416b4b944300b617d4f7f111b215</span><br><span class="line">&#x2F;&#x2F;来源：牛客网</span><br><span class="line"></span><br><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int Add(int num1, int num2)</span><br><span class="line">    &#123;</span><br><span class="line">        char* a &#x3D; reinterpret_cast&lt;char*&gt;(num1);</span><br><span class="line">        return reinterpret_cast&lt;long&gt;(&amp;(a[num2]));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></li>
+<li>通过函数<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public int Add(int num1, int num2) &#123;</span><br><span class="line">   return Integer.sum(num1, num2);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+Integer.sum()源码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static int sum(int a, int b) &#123;</span><br><span class="line">        return a + b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+  </entry>
+  <entry>
     <title>杂谈3.-我的WIN端安装软件</title>
     <url>/2020/04/21/%E6%9D%82%E8%B0%883.-%E6%88%91%E7%9A%84WIN%E7%AB%AF%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6/</url>
     <content><![CDATA[<h2 id="开发工具"><a href="#开发工具" class="headerlink" title="开发工具"></a>开发工具</h2><ul>
@@ -297,38 +311,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>算法1.-不用加减乘除做加法</title>
-    <url>/2020/04/21/%E7%AE%97%E6%B3%951.-%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95/</url>
-    <content><![CDATA[<ol>
-<li>位运算<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;59ac416b4b944300b617d4f7f111b215</span><br><span class="line">&#x2F;&#x2F;来源：牛客网</span><br><span class="line">&#x2F;&#x2F;Java</span><br><span class="line">public class Solution &#123;</span><br><span class="line">    public int Add(int num1,int num2) &#123;</span><br><span class="line">        while (num2!&#x3D;0) &#123;</span><br><span class="line">            int temp &#x3D; num1^num2;</span><br><span class="line">            num2 &#x3D; (num1&amp;num2)&lt;&lt;1;</span><br><span class="line">            num1 &#x3D; temp;</span><br><span class="line">        &#125;</span><br><span class="line">        return num1;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;C++:</span><br><span class="line">class Solution &#123;</span><br><span class="line">public        </span><br><span class="line">    int Add(int num1, int num2)</span><br><span class="line">    &#123;</span><br><span class="line">        return num2?Add(num1^num2,(num1&amp;num2)&lt;&lt;1):num1;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></li>
-<li>汇编<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;59ac416b4b944300b617d4f7f111b215</span><br><span class="line">&#x2F;&#x2F;来源：牛客网</span><br><span class="line">int add(int a, int b)</span><br><span class="line">&#123;</span><br><span class="line">    _asm</span><br><span class="line">    &#123;</span><br><span class="line">        MOV EAX, a</span><br><span class="line">        MOV ECX, b</span><br><span class="line">        ADD EAX, ECX</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-<li>自增自减<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;59ac416b4b944300b617d4f7f111b215</span><br><span class="line">&#x2F;&#x2F;来源：牛客网</span><br><span class="line"></span><br><span class="line">public class Solution &#123;</span><br><span class="line">    public int Add(int num1,int num2) &#123;</span><br><span class="line">        if(num1&gt;0)&#123;</span><br><span class="line">            while(num1--!&#x3D;0)</span><br><span class="line">                num2++;</span><br><span class="line">        &#125;</span><br><span class="line">        else if(num1&lt;0)&#123;</span><br><span class="line">            while(num1++!&#x3D;0)</span><br><span class="line">                num2--;</span><br><span class="line">        &#125;</span><br><span class="line">        return num2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-<li>通过指针<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;59ac416b4b944300b617d4f7f111b215</span><br><span class="line">&#x2F;&#x2F;来源：牛客网</span><br><span class="line"></span><br><span class="line">class Solution &#123;</span><br><span class="line">public:</span><br><span class="line">    int Add(int num1, int num2)</span><br><span class="line">    &#123;</span><br><span class="line">        char* a &#x3D; reinterpret_cast&lt;char*&gt;(num1);</span><br><span class="line">        return reinterpret_cast&lt;long&gt;(&amp;(a[num2]));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure></li>
-<li>通过函数<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public int Add(int num1, int num2) &#123;</span><br><span class="line">   return Integer.sum(num1, num2);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-Integer.sum()源码<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static int sum(int a, int b) &#123;</span><br><span class="line">        return a + b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-  </entry>
-  <entry>
-    <title>算法3.-三个数中求最大最小值</title>
-    <url>/2020/04/21/%E7%AE%97%E6%B3%953.-%E4%B8%89%E4%B8%AA%E6%95%B0%E4%B8%AD%E6%B1%82%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%80%BC/</url>
-    <content><![CDATA[<p>以最小值代码分析：</p>
-<p>1.先用a和b比较，得到a、b中较小的那个数，再和c比较，最后得到最小值</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	if(a&lt;b)</span><br><span class="line">		return a&lt;c?a:c;</span><br><span class="line">	else</span><br><span class="line">		return b&lt;c?b:c; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>2.三个数的大小无非三种情况，a最小，b最小或者c最小，将三种情况直接列出。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	if(a&lt;&#x3D;b &amp;&amp; a&lt;&#x3D;c)</span><br><span class="line">		return a;</span><br><span class="line">	else if(b&lt;&#x3D;a &amp;&amp; b&lt;&#x3D;c)</span><br><span class="line">		return b;</span><br><span class="line">	else if(c&lt;&#x3D;a &amp;&amp; c&lt;&#x3D;b)</span><br><span class="line">		return c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>3.先用a、b分别和c比较，得到a、c中的较小和b、c中的较小，两个较小比较得到三个数中的最小</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	return a&lt;b?(a&lt;c?a:c):(b&lt;c?b:c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>4.先用a和b比较，得到a、b中较小的那个数，再和c比较，最后得到最小值。</p>
-<p>这一条是1.的三目运算符的实现</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	return (a&lt;b?a:b)&lt;c?(a&lt;b?a:b):c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-  </entry>
-  <entry>
     <title>算法2.-写一个函数找出一个整数数组中，第二大的数</title>
     <url>/2020/04/21/%E7%AE%97%E6%B3%952.-%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E6%89%BE%E5%87%BA%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E6%95%B0%E7%BB%84%E4%B8%AD%EF%BC%8C%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E6%95%B0/</url>
     <content><![CDATA[<h2 id="扩展问题："><a href="#扩展问题：" class="headerlink" title="扩展问题："></a>扩展问题：</h2><ol>
@@ -352,6 +334,24 @@ Integer.sum()源码<figure class="highlight plain"><table><tr><td class="code"><
     <title>算法4.-BF和KMP</title>
     <url>/2020/04/21/%E7%AE%97%E6%B3%954.-BF%E5%92%8CKMP/</url>
     <content><![CDATA[<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BF算法</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BF</span><span class="params">(<span class="keyword">char</span> S[ ], <span class="keyword">char</span> T[ ])</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> S[]=<span class="string">"abcabcabcaccb"</span>;</span><br><span class="line">    <span class="keyword">char</span> T[]=<span class="string">"abcacc"</span>;</span><br><span class="line">    <span class="keyword">int</span> index=BF(S,T);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; index; i++)</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;T&lt;&lt;<span class="string">"在"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;S&lt;&lt;<span class="string">"中的位置是："</span>&lt;&lt;index&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BF</span><span class="params">(<span class="keyword">char</span> S[ ], <span class="keyword">char</span> T[ ])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> index = <span class="number">0</span>;                            <span class="comment">//主串从下标0开始第一趟匹配</span></span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;                           <span class="comment">//设置比较的起始下标</span></span><br><span class="line">    <span class="keyword">while</span> ((S[i] != <span class="string">'\0'</span>) &amp;&amp; (T[j] != <span class="string">'\0'</span>))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (S[i] == T[j])</span><br><span class="line">        &#123;</span><br><span class="line">            i++;</span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            index++;    <span class="comment">//i和j分别回溯</span></span><br><span class="line">            i = index;</span><br><span class="line">            j = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (T[j] == <span class="string">'\0'</span>)</span><br><span class="line">        <span class="keyword">return</span> index + <span class="number">1</span>;      <span class="comment">//返回本趟匹配的开始位置（不是下标）</span></span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//KMP算法</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">GetNext</span><span class="params">(<span class="keyword">char</span> T[ ], <span class="keyword">int</span> next[ ])</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">KMP</span><span class="params">(<span class="keyword">char</span> S[],<span class="keyword">char</span> T[])</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span>  S[]=<span class="string">"ababcabcacbab"</span>;</span><br><span class="line">    <span class="keyword">char</span>  T[]=<span class="string">"abcac"</span>;</span><br><span class="line">    <span class="keyword">int</span> index = KMP(S,T);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; index; i++)</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;T&lt;&lt;<span class="string">"在"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;S&lt;&lt;<span class="string">"中的位置是："</span>&lt;&lt;index&lt;&lt;<span class="built_in">endl</span>;;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">KMP</span><span class="params">(<span class="keyword">char</span> S[],<span class="keyword">char</span> T[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> next[<span class="number">80</span>] = &#123;<span class="number">-1</span>&#125;;</span><br><span class="line">    GetNext(T,next);</span><br><span class="line">    <span class="keyword">while</span> (S[i] != <span class="string">'\0'</span> &amp;&amp; T[j] != <span class="string">'\0'</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(S[i] == T[j])</span><br><span class="line">        &#123;</span><br><span class="line">            i++;</span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            j = next[j];</span><br><span class="line">            <span class="keyword">if</span> (j == <span class="number">-1</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                i++;</span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(T[j] == <span class="string">'\0'</span>)</span><br><span class="line">        <span class="keyword">return</span> i - <span class="built_in">strlen</span>(T) + <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">GetNext</span><span class="params">(<span class="keyword">char</span> T[], <span class="keyword">int</span> next[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i, j, len;</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">for</span> (j = <span class="number">1</span>; T[j]!=<span class="string">'\0'</span>; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (len = j - <span class="number">1</span>; len &gt;= <span class="number">1</span>; len--)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; len; i++)</span><br><span class="line">                <span class="keyword">if</span>(T[i] != T[j-len+i])</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">if</span> (i == len)</span><br><span class="line">            &#123;</span><br><span class="line">                next[j] = len;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (len &lt; <span class="number">1</span>)</span><br><span class="line">            next[j] = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 以下为改进的蛮力算法</span></span><br><span class="line"><span class="comment">void GetNext(char T[ ], int next[ ])</span></span><br><span class="line"><span class="comment">&#123;</span></span><br><span class="line"><span class="comment">	int j = 0, k = -1;</span></span><br><span class="line"><span class="comment">	next[0] = -1;</span></span><br><span class="line"><span class="comment">	while (T[j] != '\0')                           //直到字符串末尾</span></span><br><span class="line"><span class="comment">	&#123;</span></span><br><span class="line"><span class="comment">		if (k == -1) &#123;                           //无相同子串</span></span><br><span class="line"><span class="comment">			next[++j] = 0; k = 0;</span></span><br><span class="line"><span class="comment">		&#125;else if (T[j] == T[k]) &#123;                //确定next[j+1]的值</span></span><br><span class="line"><span class="comment">				k++;</span></span><br><span class="line"><span class="comment">				next[++j] = k;</span></span><br><span class="line"><span class="comment">			&#125; else k = next[k];          //取T[0]...T[j]的下一个相等子串的长度</span></span><br><span class="line"><span class="comment">	&#125;</span></span><br><span class="line"><span class="comment"> &#125;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//留着补充BM算法</span></span><br></pre></td></tr></table></figure>]]></content>
+  </entry>
+  <entry>
+    <title>算法3.-三个数中求最大最小值</title>
+    <url>/2020/04/21/%E7%AE%97%E6%B3%953.-%E4%B8%89%E4%B8%AA%E6%95%B0%E4%B8%AD%E6%B1%82%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%80%BC/</url>
+    <content><![CDATA[<p>以最小值代码分析：</p>
+<p>1.先用a和b比较，得到a、b中较小的那个数，再和c比较，最后得到最小值</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	if(a&lt;b)</span><br><span class="line">		return a&lt;c?a:c;</span><br><span class="line">	else</span><br><span class="line">		return b&lt;c?b:c; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>2.三个数的大小无非三种情况，a最小，b最小或者c最小，将三种情况直接列出。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	if(a&lt;&#x3D;b &amp;&amp; a&lt;&#x3D;c)</span><br><span class="line">		return a;</span><br><span class="line">	else if(b&lt;&#x3D;a &amp;&amp; b&lt;&#x3D;c)</span><br><span class="line">		return b;</span><br><span class="line">	else if(c&lt;&#x3D;a &amp;&amp; c&lt;&#x3D;b)</span><br><span class="line">		return c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>3.先用a、b分别和c比较，得到a、c中的较小和b、c中的较小，两个较小比较得到三个数中的最小</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	return a&lt;b?(a&lt;c?a:c):(b&lt;c?b:c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>4.先用a和b比较，得到a、b中较小的那个数，再和c比较，最后得到最小值。</p>
+<p>这一条是1.的三目运算符的实现</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	return (a&lt;b?a:b)&lt;c?(a&lt;b?a:b):c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
   </entry>
   <entry>
     <title>算法5.-二进制中1的个数</title>
