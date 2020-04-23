@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>git-clone加速</title>
+    <url>/2020/01/20/Git1.--%E5%9B%BD%E5%86%85git-clone%E9%80%9F%E5%BA%A6%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<h1 id="0-国内为什么速度会慢"><a href="#0-国内为什么速度会慢" class="headerlink" title="0. 国内为什么速度会慢"></a>0. 国内为什么速度会慢</h1><ul>
+<li>github的服务器在国外</li>
+<li>gfw</li>
+</ul>
+<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><blockquote>
+<p>这里就不在推荐修改dns的做法，我也尝试过，不仅麻烦，速度还是不稳定。</p>
+</blockquote>
+<h2 id="1-拥有科学上网的能力"><a href="#1-拥有科学上网的能力" class="headerlink" title="1. 拥有科学上网的能力"></a>1. 拥有科学上网的能力</h2><blockquote>
+<p>如果是计算机相关专业的学生或者软件开发人员，只会用百度，我觉得是一件很可悲的事。</p>
+</blockquote>
+<h2 id="2-配置git"><a href="#2-配置git" class="headerlink" title="2. 配置git"></a>2. 配置git</h2><h3 id="2-1-配置socks5代理"><a href="#2-1-配置socks5代理" class="headerlink" title="2.1 配置socks5代理"></a>2.1 配置socks5代理</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global http.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:对应的端口号&#39;</span><br><span class="line">git config --global http.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:对应的端口号&#39;</span><br></pre></td></tr></table></figure>
+<h3 id="2-2-取消代理"><a href="#2-2-取消代理" class="headerlink" title="2.2 取消代理"></a>2.2 取消代理</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global --unset http.proxy</span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>
+
+<p>配置完之后，enjoy你的带宽跑满的愉悦。</p>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>你真的会用github搜索吗?</title>
     <url>/2020/01/21/Git2.-github%E9%AA%9A%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p><strong>整理自尚硅谷周阳老师</strong></p>
@@ -33,31 +58,6 @@
       </tags>
   </entry>
   <entry>
-    <title>git-clone加速</title>
-    <url>/2020/01/20/Git1.--%E5%9B%BD%E5%86%85git-clone%E9%80%9F%E5%BA%A6%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<h1 id="0-国内为什么速度会慢"><a href="#0-国内为什么速度会慢" class="headerlink" title="0. 国内为什么速度会慢"></a>0. 国内为什么速度会慢</h1><ul>
-<li>github的服务器在国外</li>
-<li>gfw</li>
-</ul>
-<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><blockquote>
-<p>这里就不在推荐修改dns的做法，我也尝试过，不仅麻烦，速度还是不稳定。</p>
-</blockquote>
-<h2 id="1-拥有科学上网的能力"><a href="#1-拥有科学上网的能力" class="headerlink" title="1. 拥有科学上网的能力"></a>1. 拥有科学上网的能力</h2><blockquote>
-<p>如果是计算机相关专业的学生或者软件开发人员，只会用百度，我觉得是一件很可悲的事。</p>
-</blockquote>
-<h2 id="2-配置git"><a href="#2-配置git" class="headerlink" title="2. 配置git"></a>2. 配置git</h2><h3 id="2-1-配置socks5代理"><a href="#2-1-配置socks5代理" class="headerlink" title="2.1 配置socks5代理"></a>2.1 配置socks5代理</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global http.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:对应的端口号&#39;</span><br><span class="line">git config --global http.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:对应的端口号&#39;</span><br></pre></td></tr></table></figure>
-<h3 id="2-2-取消代理"><a href="#2-2-取消代理" class="headerlink" title="2.2 取消代理"></a>2.2 取消代理</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global --unset http.proxy</span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>
-
-<p>配置完之后，enjoy你的带宽跑满的愉悦。</p>
-]]></content>
-      <categories>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Java学习资源整理</title>
     <url>/2020/02/02/Java0.-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/</url>
     <content><![CDATA[<h3 id="github"><a href="#github" class="headerlink" title="github:"></a>github:</h3><ul>
@@ -86,6 +86,25 @@
       </categories>
       <tags>
         <tag>Java资源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>bashrc修改导致linux系统指令不能用的解决方案</title>
+    <url>/2019/10/20/Linux1.-bashrc%E6%96%87%E4%BB%B6%E6%9B%B4%E6%94%B9%E5%AF%BC%E8%87%B4linux%E7%B3%BB%E7%BB%9F%E6%8C%87%E4%BB%A4%E4%B8%8D%E8%83%BD%E7%94%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>参考博客:</p>
+<ul>
+<li><a href="https://www.cnblogs.com/chenglee/p/7476852.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenglee/p/7476852.html</a></li>
+</ul>
+<p>解决方案：</p>
+<p>重新赋予环境变量PATH就行</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">export PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>bashrc</tag>
       </tags>
   </entry>
   <entry>
@@ -142,25 +161,6 @@
       <tags>
         <tag>Python</tag>
         <tag>拷贝</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>bashrc修改导致linux系统指令不能用的解决方案</title>
-    <url>/2019/10/20/Linux1.-bashrc%E6%96%87%E4%BB%B6%E6%9B%B4%E6%94%B9%E5%AF%BC%E8%87%B4linux%E7%B3%BB%E7%BB%9F%E6%8C%87%E4%BB%A4%E4%B8%8D%E8%83%BD%E7%94%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<p>参考博客:</p>
-<ul>
-<li><a href="https://www.cnblogs.com/chenglee/p/7476852.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenglee/p/7476852.html</a></li>
-</ul>
-<p>解决方案：</p>
-<p>重新赋予环境变量PATH就行</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">export PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>Linux</category>
-      </categories>
-      <tags>
-        <tag>bashrc</tag>
       </tags>
   </entry>
   <entry>
@@ -249,6 +249,23 @@
       </categories>
       <tags>
         <tag>hr面</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>LeetCode cpp代码缩减runtime</title>
+    <url>/2019/10/03/leetcode%E4%B8%AD%E6%8F%90%E5%8D%87%E4%BB%A3%E7%A0%81IO%E9%80%9F%E5%BA%A6/</url>
+    <content><![CDATA[<p>在leetcode第11题看到一个题解，添加到代码前面，大幅缩减runtime</p>
+<p>代码为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static int speedup&#x3D;[]()&#123;</span><br><span class="line">	ios_base::sync_with_stdio(false);</span><br><span class="line">	cin.tie(nullptr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;();</span><br></pre></td></tr></table></figure>
+
+<p>leetcode11题解</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static int speedup&#x3D;[]()&#123;</span><br><span class="line">	ios_base::sync_with_stdio(false);</span><br><span class="line">	cin.tie(nullptr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;();</span><br><span class="line">class Solution</span><br><span class="line">&#123;</span><br><span class="line">public:</span><br><span class="line">    int maxArea(vector&lt;int&gt; &amp;height)</span><br><span class="line">    &#123;</span><br><span class="line">        int i &#x3D; 0, j &#x3D; height.size() - 1, water &#x3D; 0;</span><br><span class="line">        while (i &lt; j)</span><br><span class="line">        &#123;</span><br><span class="line">            int h &#x3D; min(height[i], height[j]);</span><br><span class="line">            water &#x3D; max(water, (j - i) * h);</span><br><span class="line">            while (height[i] &lt;&#x3D; h &amp;&amp; i &lt; j)</span><br><span class="line">                i++;</span><br><span class="line">            while (height[j] &lt;&#x3D; h &amp;&amp; i &lt; j)</span><br><span class="line">                j--;</span><br><span class="line">        &#125;</span><br><span class="line">        return water;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
       </tags>
   </entry>
   <entry>
@@ -380,24 +397,7 @@
       </tags>
   </entry>
   <entry>
-    <title>LeetCode cpp代码缩减runtime</title>
-    <url>/2019/10/03/leetcode%E4%B8%AD%E6%8F%90%E5%8D%87%E4%BB%A3%E7%A0%81IO%E9%80%9F%E5%BA%A6/</url>
-    <content><![CDATA[<p>在leetcode第11题看到一个题解，添加到代码前面，大幅缩减runtime</p>
-<p>代码为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static int speedup&#x3D;[]()&#123;</span><br><span class="line">	ios_base::sync_with_stdio(false);</span><br><span class="line">	cin.tie(nullptr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;();</span><br></pre></td></tr></table></figure>
-
-<p>leetcode11题解</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static int speedup&#x3D;[]()&#123;</span><br><span class="line">	ios_base::sync_with_stdio(false);</span><br><span class="line">	cin.tie(nullptr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;();</span><br><span class="line">class Solution</span><br><span class="line">&#123;</span><br><span class="line">public:</span><br><span class="line">    int maxArea(vector&lt;int&gt; &amp;height)</span><br><span class="line">    &#123;</span><br><span class="line">        int i &#x3D; 0, j &#x3D; height.size() - 1, water &#x3D; 0;</span><br><span class="line">        while (i &lt; j)</span><br><span class="line">        &#123;</span><br><span class="line">            int h &#x3D; min(height[i], height[j]);</span><br><span class="line">            water &#x3D; max(water, (j - i) * h);</span><br><span class="line">            while (height[i] &lt;&#x3D; h &amp;&amp; i &lt; j)</span><br><span class="line">                i++;</span><br><span class="line">            while (height[j] &lt;&#x3D; h &amp;&amp; i &lt; j)</span><br><span class="line">                j--;</span><br><span class="line">        &#125;</span><br><span class="line">        return water;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>LeetCode</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>是时候该放弃百度了</title>
+    <title>是时候该放弃百度网盘了</title>
     <url>/2020/04/23/%E6%98%AF%E6%97%B6%E5%80%99%E8%AF%A5%E6%94%BE%E5%BC%83%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%BA%86/</url>
     <content><![CDATA[<h1 id="知乎相关问题："><a href="#知乎相关问题：" class="headerlink" title="知乎相关问题："></a>知乎相关问题：</h1><ul>
 <li><a href="https://www.zhihu.com/question/388835247/answer/1166760742" target="_blank" rel="noopener">如何看待<em>百度网盘</em>默认开启加入用户激励计划，在用户不知情的情况下上传文件？</a></li>
@@ -453,6 +453,7 @@
       </categories>
       <tags>
         <tag>百度网盘</tag>
+        <tag>隐私</tag>
       </tags>
   </entry>
   <entry>
@@ -469,54 +470,6 @@
       </categories>
       <tags>
         <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的win端安装软件</title>
-    <url>/2020/03/20/%E6%9D%82%E8%B0%883.-%E6%88%91%E7%9A%84WIN%E7%AB%AF%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6/</url>
-    <content><![CDATA[<h2 id="开发工具"><a href="#开发工具" class="headerlink" title="开发工具"></a>开发工具</h2><ul>
-<li>Interlij IDEA</li>
-<li>Pycharm</li>
-<li>Maven</li>
-<li>Tomcat</li>
-<li>Git</li>
-<li>Robo3t</li>
-<li>Navicat</li>
-<li>Sublime</li>
-<li>Redis Manager</li>
-</ul>
-<p>数据库</p>
-<ul>
-<li>MySQL</li>
-<li>Redis</li>
-<li>MongoDB</li>
-</ul>
-<h2 id="语言环境"><a href="#语言环境" class="headerlink" title="语言环境"></a>语言环境</h2><ul>
-<li>JDK 1.8+</li>
-<li>Python3.6+</li>
-</ul>
-<h2 id="测试工具"><a href="#测试工具" class="headerlink" title="测试工具"></a>测试工具</h2><ul>
-<li>postman</li>
-</ul>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
-<li>VirtualBox</li>
-<li>Typora</li>
-<li>百度网盘</li>
-<li>Telegram</li>
-<li>Snipaste</li>
-<li>Xmind</li>
-<li>Xshell</li>
-<li>MobaXterm</li>
-<li>谷歌浏览器</li>
-<li>kxsw工具包</li>
-<li>极速PDF阅读器</li>
-</ul>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>常用软件</tag>
       </tags>
   </entry>
   <entry>
@@ -604,6 +557,54 @@
       </tags>
   </entry>
   <entry>
+    <title>我的win端安装软件</title>
+    <url>/2020/03/20/%E6%9D%82%E8%B0%883.-%E6%88%91%E7%9A%84WIN%E7%AB%AF%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6/</url>
+    <content><![CDATA[<h2 id="开发工具"><a href="#开发工具" class="headerlink" title="开发工具"></a>开发工具</h2><ul>
+<li>Interlij IDEA</li>
+<li>Pycharm</li>
+<li>Maven</li>
+<li>Tomcat</li>
+<li>Git</li>
+<li>Robo3t</li>
+<li>Navicat</li>
+<li>Sublime</li>
+<li>Redis Manager</li>
+</ul>
+<p>数据库</p>
+<ul>
+<li>MySQL</li>
+<li>Redis</li>
+<li>MongoDB</li>
+</ul>
+<h2 id="语言环境"><a href="#语言环境" class="headerlink" title="语言环境"></a>语言环境</h2><ul>
+<li>JDK 1.8+</li>
+<li>Python3.6+</li>
+</ul>
+<h2 id="测试工具"><a href="#测试工具" class="headerlink" title="测试工具"></a>测试工具</h2><ul>
+<li>postman</li>
+</ul>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li>VirtualBox</li>
+<li>Typora</li>
+<li>百度网盘</li>
+<li>Telegram</li>
+<li>Snipaste</li>
+<li>Xmind</li>
+<li>Xshell</li>
+<li>MobaXterm</li>
+<li>谷歌浏览器</li>
+<li>kxsw工具包</li>
+<li>极速PDF阅读器</li>
+</ul>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>常用软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>写一个函数找出一个整数数组中，第二大的数</title>
     <url>/2019/09/09/%E7%AE%97%E6%B3%952.-%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E6%89%BE%E5%87%BA%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E6%95%B0%E7%BB%84%E4%B8%AD%EF%BC%8C%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E6%95%B0/</url>
     <content><![CDATA[<h2 id="扩展问题："><a href="#扩展问题：" class="headerlink" title="扩展问题："></a>扩展问题：</h2><ol>
@@ -666,37 +667,6 @@
       </tags>
   </entry>
   <entry>
-    <title>二进制中1的个数</title>
-    <url>/2019/09/11/%E7%AE%97%E6%B3%955.-%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0/</url>
-    <content><![CDATA[<h1 id="二进制中1的个数"><a href="#二进制中1的个数" class="headerlink" title="二进制中1的个数"></a>二进制中1的个数</h1><h1 id="1-移位-计数"><a href="#1-移位-计数" class="headerlink" title="1.移位+计数"></a>1.移位+计数</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount1</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span>; </span><br><span class="line">    <span class="keyword">while</span> (n != <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>((n &amp; <span class="number">1</span>) == <span class="number">1</span>) <span class="comment">// 当前位是1</span></span><br><span class="line">            ++c ; <span class="comment">// 计数器加1</span></span><br><span class="line">        n &gt;&gt;=<span class="number">1</span> ; <span class="comment">// 移位</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="2-按1消除"><a href="#2-按1消除" class="headerlink" title="2.按1消除"></a>2.按1消除</h2><p>如果一个整数不为0，那么这个整数至少有一位是1。如果我们把这个整数减1，那么原来处在整数最右边的1就会变为0，原来在1后面的所有的0都会变成1(如果最右边的1后面还有0的话)。其余所有位将不会受到影响。<br>举个例子：一个二进制数1100，从右边数起第三位是处于最右边的一个1。减去1后，第三位变成0，它后面的两位0变成了1，而前面的1保持不变，因此得到的结果是1011.我们发现减1的结果是把最右边的一个1开始的所有位都取反了。这个时候如果我们再把原来的整数和减去1之后的结果做与运算，从原来整数最右边一个1那一位开始所有位都会变成0。如1100&amp;1011=1000.也就是说，把一个整数减去1，再和原整数做与运算，会把该整数最右边一个1变成0.那么一个整数的二进制有多少个1，就可以进行多少次这样的操作。</p>
-<p>链接：<a href="https://www.nowcoder.com/questionTerminal/8ee967e43c2c4ec193b040ea7fbb10b8?answerType=1&f=discussion" target="_blank" rel="noopener">https://www.nowcoder.com/questionTerminal/8ee967e43c2c4ec193b040ea7fbb10b8?answerType=1&amp;f=discussion</a><br>来源：牛客网</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">for</span> (c =<span class="number">0</span>; n!=; ++c)</span><br><span class="line">        n &amp;= (n -<span class="number">1</span>) ; <span class="comment">// 清除最低位的1</span></span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BitCount2的while实现版</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2_1</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">while</span>(n != <span class="number">0</span>)&#123;</span><br><span class="line">    c++;</span><br><span class="line">    n &amp;= (n-<span class="number">1</span>); <span class="comment">// 清除最低位的1</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BitCount2的终极蛇皮简化版</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2_2</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> ( ; n; ++c, n &amp;= (n -<span class="number">1</span>));</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="3-分治法"><a href="#3-分治法" class="headerlink" title="3.分治法"></a>3.分治法</h2><p>一个整数可以转为一个32位2进制数，统计32个位元中为1的个数，转化为统计2组16个位元为1的个数,统计16个位元为1的个数的问题有转化为统计2组16个位元为1的个数，分治到统计2个位元为1的个数。</p>
-<blockquote>
-<p>参考自《算法心得》<br>另还有3位段切分和4位段切分（统计x位段中为1的位元个数），详见《算法心得》</p>
-</blockquote>
-<p><img src="https://uploadfiles.nowcoder.com/images/20200312/1871642_1584015902259_08DBC6EC7EDDC430E1F5F434BBA21342" alt="图片说明" title="图片标题"></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int BitCount3(int x)&#123;</span><br><span class="line">    x &#x3D; (x &amp; 0x55555555) + ((x &gt;&gt;&gt; 1) &amp; 0x55555555);</span><br><span class="line">    x &#x3D; (x &amp; 0x33333333) + ((x &gt;&gt;&gt; 2) &amp; 0x33333333);</span><br><span class="line">    x &#x3D; (x &amp; 0x0f0f0f0f) + ((x &gt;&gt;&gt; 4) &amp; 0x0f0f0f0f);</span><br><span class="line">    x &#x3D; (x &amp; 0x00ff00ff) + ((x &gt;&gt;&gt; 8) &amp; 0x00ff00ff);</span><br><span class="line">    x &#x3D; (x &amp; 0x0000ffff) + ((x &gt;&gt;&gt; 16) &amp; 0x0000ffff);</span><br><span class="line">    return x;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="4-Integer-bitCount"><a href="#4-Integer-bitCount" class="headerlink" title="4.Integer.bitCount"></a>4.Integer.bitCount</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">BitCount4</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">	<span class="comment">// HD, Figure 5-2</span></span><br><span class="line">    i = i - ((i &gt;&gt;&gt; <span class="number">1</span>) &amp; <span class="number">0x55555555</span>);</span><br><span class="line">    i = (i &amp; <span class="number">0x33333333</span>) + ((i &gt;&gt;&gt; <span class="number">2</span>) &amp; <span class="number">0x33333333</span>);</span><br><span class="line">    i = (i + (i &gt;&gt;&gt; <span class="number">4</span>)) &amp; <span class="number">0x0f0f0f0f</span>;</span><br><span class="line">    i = i + (i &gt;&gt;&gt; <span class="number">8</span>);</span><br><span class="line">    i = i + (i &gt;&gt;&gt; <span class="number">16</span>);</span><br><span class="line">    <span class="keyword">return</span> i &amp; <span class="number">0x3f</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>位运算</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>线程-进程-协程</title>
     <url>/2020/03/20/%E7%BA%BF%E7%A8%8B-%E8%BF%9B%E7%A8%8B-%E5%8D%8F%E7%A8%8B/</url>
     <content><![CDATA[<p>Python中因为有GIL(全局解释器锁)的存在，例如，某个线程想要执行，必须先拿到GIL，我们可以把GIL看作“通行证”，并且在一个Python进程中，GIL只有一个。拿不到通行证的线程就不允许进入CPU执行。每次释放GIL锁，线程之间都会进行锁竞争，而切换线程会消耗资源。由于GIL锁的存在，Python里一个进程永远只能同时执行一个线程（拿到GIL的线程才能执行），这就是在多核CPU上Python的多线程效率不高的原因。</p>
@@ -751,6 +721,37 @@
         <tag>线程</tag>
         <tag>进程</tag>
         <tag>协程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二进制中1的个数</title>
+    <url>/2019/09/11/%E7%AE%97%E6%B3%955.-%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="二进制中1的个数"><a href="#二进制中1的个数" class="headerlink" title="二进制中1的个数"></a>二进制中1的个数</h1><h1 id="1-移位-计数"><a href="#1-移位-计数" class="headerlink" title="1.移位+计数"></a>1.移位+计数</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount1</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span>; </span><br><span class="line">    <span class="keyword">while</span> (n != <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>((n &amp; <span class="number">1</span>) == <span class="number">1</span>) <span class="comment">// 当前位是1</span></span><br><span class="line">            ++c ; <span class="comment">// 计数器加1</span></span><br><span class="line">        n &gt;&gt;=<span class="number">1</span> ; <span class="comment">// 移位</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-按1消除"><a href="#2-按1消除" class="headerlink" title="2.按1消除"></a>2.按1消除</h2><p>如果一个整数不为0，那么这个整数至少有一位是1。如果我们把这个整数减1，那么原来处在整数最右边的1就会变为0，原来在1后面的所有的0都会变成1(如果最右边的1后面还有0的话)。其余所有位将不会受到影响。<br>举个例子：一个二进制数1100，从右边数起第三位是处于最右边的一个1。减去1后，第三位变成0，它后面的两位0变成了1，而前面的1保持不变，因此得到的结果是1011.我们发现减1的结果是把最右边的一个1开始的所有位都取反了。这个时候如果我们再把原来的整数和减去1之后的结果做与运算，从原来整数最右边一个1那一位开始所有位都会变成0。如1100&amp;1011=1000.也就是说，把一个整数减去1，再和原整数做与运算，会把该整数最右边一个1变成0.那么一个整数的二进制有多少个1，就可以进行多少次这样的操作。</p>
+<p>链接：<a href="https://www.nowcoder.com/questionTerminal/8ee967e43c2c4ec193b040ea7fbb10b8?answerType=1&f=discussion" target="_blank" rel="noopener">https://www.nowcoder.com/questionTerminal/8ee967e43c2c4ec193b040ea7fbb10b8?answerType=1&amp;f=discussion</a><br>来源：牛客网</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">for</span> (c =<span class="number">0</span>; n!=; ++c)</span><br><span class="line">        n &amp;= (n -<span class="number">1</span>) ; <span class="comment">// 清除最低位的1</span></span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BitCount2的while实现版</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2_1</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">while</span>(n != <span class="number">0</span>)&#123;</span><br><span class="line">    c++;</span><br><span class="line">    n &amp;= (n-<span class="number">1</span>); <span class="comment">// 清除最低位的1</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BitCount2的终极蛇皮简化版</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2_2</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> ( ; n; ++c, n &amp;= (n -<span class="number">1</span>));</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-分治法"><a href="#3-分治法" class="headerlink" title="3.分治法"></a>3.分治法</h2><p>一个整数可以转为一个32位2进制数，统计32个位元中为1的个数，转化为统计2组16个位元为1的个数,统计16个位元为1的个数的问题有转化为统计2组16个位元为1的个数，分治到统计2个位元为1的个数。</p>
+<blockquote>
+<p>参考自《算法心得》<br>另还有3位段切分和4位段切分（统计x位段中为1的位元个数），详见《算法心得》</p>
+</blockquote>
+<p><img src="https://uploadfiles.nowcoder.com/images/20200312/1871642_1584015902259_08DBC6EC7EDDC430E1F5F434BBA21342" alt="图片说明" title="图片标题"></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int BitCount3(int x)&#123;</span><br><span class="line">    x &#x3D; (x &amp; 0x55555555) + ((x &gt;&gt;&gt; 1) &amp; 0x55555555);</span><br><span class="line">    x &#x3D; (x &amp; 0x33333333) + ((x &gt;&gt;&gt; 2) &amp; 0x33333333);</span><br><span class="line">    x &#x3D; (x &amp; 0x0f0f0f0f) + ((x &gt;&gt;&gt; 4) &amp; 0x0f0f0f0f);</span><br><span class="line">    x &#x3D; (x &amp; 0x00ff00ff) + ((x &gt;&gt;&gt; 8) &amp; 0x00ff00ff);</span><br><span class="line">    x &#x3D; (x &amp; 0x0000ffff) + ((x &gt;&gt;&gt; 16) &amp; 0x0000ffff);</span><br><span class="line">    return x;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-Integer-bitCount"><a href="#4-Integer-bitCount" class="headerlink" title="4.Integer.bitCount"></a>4.Integer.bitCount</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">BitCount4</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">	<span class="comment">// HD, Figure 5-2</span></span><br><span class="line">    i = i - ((i &gt;&gt;&gt; <span class="number">1</span>) &amp; <span class="number">0x55555555</span>);</span><br><span class="line">    i = (i &amp; <span class="number">0x33333333</span>) + ((i &gt;&gt;&gt; <span class="number">2</span>) &amp; <span class="number">0x33333333</span>);</span><br><span class="line">    i = (i + (i &gt;&gt;&gt; <span class="number">4</span>)) &amp; <span class="number">0x0f0f0f0f</span>;</span><br><span class="line">    i = i + (i &gt;&gt;&gt; <span class="number">8</span>);</span><br><span class="line">    i = i + (i &gt;&gt;&gt; <span class="number">16</span>);</span><br><span class="line">    <span class="keyword">return</span> i &amp; <span class="number">0x3f</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>位运算</tag>
       </tags>
   </entry>
   <entry>
