@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>git-clone加速</title>
-    <url>/2020/01/20/Git1.--%E5%9B%BD%E5%86%85git-clone%E9%80%9F%E5%BA%A6%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<h1 id="0-国内为什么速度会慢"><a href="#0-国内为什么速度会慢" class="headerlink" title="0. 国内为什么速度会慢"></a>0. 国内为什么速度会慢</h1><ul>
-<li>github的服务器在国外</li>
-<li>gfw</li>
-</ul>
-<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><blockquote>
-<p>这里就不在推荐修改dns的做法，我也尝试过，不仅麻烦，速度还是不稳定。</p>
-</blockquote>
-<h2 id="1-拥有科学上网的能力"><a href="#1-拥有科学上网的能力" class="headerlink" title="1. 拥有科学上网的能力"></a>1. 拥有科学上网的能力</h2><blockquote>
-<p>如果是计算机相关专业的学生或者软件开发人员，只会用百度，我觉得是一件很可悲的事。</p>
-</blockquote>
-<h2 id="2-配置git"><a href="#2-配置git" class="headerlink" title="2. 配置git"></a>2. 配置git</h2><h3 id="2-1-配置socks5代理"><a href="#2-1-配置socks5代理" class="headerlink" title="2.1 配置socks5代理"></a>2.1 配置socks5代理</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global http.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:对应的端口号&#39;</span><br><span class="line">git config --global http.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:对应的端口号&#39;</span><br></pre></td></tr></table></figure>
-<h3 id="2-2-取消代理"><a href="#2-2-取消代理" class="headerlink" title="2.2 取消代理"></a>2.2 取消代理</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global --unset http.proxy</span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>
-
-<p>配置完之后，enjoy你的带宽跑满的愉悦。</p>
-]]></content>
-      <categories>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>你真的会用github搜索吗?</title>
     <url>/2020/01/21/Git2.-github%E9%AA%9A%E6%93%8D%E4%BD%9C/</url>
     <content><![CDATA[<p><strong>整理自尚硅谷周阳老师</strong></p>
@@ -55,6 +30,31 @@
       </categories>
       <tags>
         <tag>github搜索</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git-clone加速</title>
+    <url>/2020/01/20/Git1.--%E5%9B%BD%E5%86%85git-clone%E9%80%9F%E5%BA%A6%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<h1 id="0-国内为什么速度会慢"><a href="#0-国内为什么速度会慢" class="headerlink" title="0. 国内为什么速度会慢"></a>0. 国内为什么速度会慢</h1><ul>
+<li>github的服务器在国外</li>
+<li>gfw</li>
+</ul>
+<h1 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h1><blockquote>
+<p>这里就不在推荐修改dns的做法，我也尝试过，不仅麻烦，速度还是不稳定。</p>
+</blockquote>
+<h2 id="1-拥有科学上网的能力"><a href="#1-拥有科学上网的能力" class="headerlink" title="1. 拥有科学上网的能力"></a>1. 拥有科学上网的能力</h2><blockquote>
+<p>如果是计算机相关专业的学生或者软件开发人员，只会用百度，我觉得是一件很可悲的事。</p>
+</blockquote>
+<h2 id="2-配置git"><a href="#2-配置git" class="headerlink" title="2. 配置git"></a>2. 配置git</h2><h3 id="2-1-配置socks5代理"><a href="#2-1-配置socks5代理" class="headerlink" title="2.1 配置socks5代理"></a>2.1 配置socks5代理</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global http.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:对应的端口号&#39;</span><br><span class="line">git config --global http.proxy &#39;socks5:&#x2F;&#x2F;127.0.0.1:对应的端口号&#39;</span><br></pre></td></tr></table></figure>
+<h3 id="2-2-取消代理"><a href="#2-2-取消代理" class="headerlink" title="2.2 取消代理"></a>2.2 取消代理</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global --unset http.proxy</span><br><span class="line">git config --global --unset https.proxy</span><br></pre></td></tr></table></figure>
+
+<p>配置完之后，enjoy你的带宽跑满的愉悦。</p>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -89,22 +89,21 @@
       </tags>
   </entry>
   <entry>
-    <title>bashrc修改导致linux系统指令不能用的解决方案</title>
-    <url>/2019/10/20/Linux1.-bashrc%E6%96%87%E4%BB%B6%E6%9B%B4%E6%94%B9%E5%AF%BC%E8%87%B4linux%E7%B3%BB%E7%BB%9F%E6%8C%87%E4%BB%A4%E4%B8%8D%E8%83%BD%E7%94%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
-    <content><![CDATA[<p>参考博客:</p>
-<ul>
-<li><a href="https://www.cnblogs.com/chenglee/p/7476852.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenglee/p/7476852.html</a></li>
-</ul>
-<p>解决方案：</p>
-<p>重新赋予环境变量PATH就行</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">export PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin</span><br></pre></td></tr></table></figure>
-
+    <title>虚拟环境和包管理</title>
+    <url>/2019/12/01/Python1.-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E5%92%8C%E5%8C%85%E7%AE%A1%E7%90%86/</url>
+    <content><![CDATA[<h2 id="1-创建虚拟环境"><a href="#1-创建虚拟环境" class="headerlink" title="1.创建虚拟环境"></a>1.创建虚拟环境</h2><p><code>python - m venv 虚拟环境名</code></p>
+<h2 id="2-启动虚拟环境"><a href="#2-启动虚拟环境" class="headerlink" title="2.启动虚拟环境"></a>2.启动虚拟环境</h2><h6 id="win"><a href="#win" class="headerlink" title="win:"></a>win:</h6><p><code>虚拟环境名\Scripts\activate.bat</code></p>
+<h6 id="mac-linux"><a href="#mac-linux" class="headerlink" title="mac/linux:"></a>mac/linux:</h6><p><code>source 虚拟环境名/bin/activate</code></p>
+<h2 id="3-退出虚拟环境deactivate"><a href="#3-退出虚拟环境deactivate" class="headerlink" title="3.退出虚拟环境deactivate"></a>3.退出虚拟环境<strong><code>deactivate</code></strong></h2><h2 id="4-pip管理包"><a href="#4-pip管理包" class="headerlink" title="4.pip管理包"></a>4.pip管理包</h2><p><code>pip install 包名</code></p>
+<h2 id="5-生成requirements-txt"><a href="#5-生成requirements-txt" class="headerlink" title="5.生成requirements.txt"></a>5.生成<strong>requirements.txt</strong></h2><p><code>pip freeze &gt; requirements.txt</code></p>
+<h2 id="6-使用requirements-txt"><a href="#6-使用requirements-txt" class="headerlink" title="6.使用requirements.txt"></a>6.使用<strong>requirements.txt</strong></h2><p><code>pip install -r requirements.txt</code></p>
 ]]></content>
       <categories>
-        <category>Linux</category>
+        <category>Python</category>
       </categories>
       <tags>
-        <tag>bashrc</tag>
+        <tag>虚拟环境</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -126,21 +125,42 @@
       </tags>
   </entry>
   <entry>
-    <title>虚拟环境和包管理</title>
-    <url>/2019/12/01/Python1.-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E5%92%8C%E5%8C%85%E7%AE%A1%E7%90%86/</url>
-    <content><![CDATA[<h2 id="1-创建虚拟环境"><a href="#1-创建虚拟环境" class="headerlink" title="1.创建虚拟环境"></a>1.创建虚拟环境</h2><p><code>python - m venv 虚拟环境名</code></p>
-<h2 id="2-启动虚拟环境"><a href="#2-启动虚拟环境" class="headerlink" title="2.启动虚拟环境"></a>2.启动虚拟环境</h2><h6 id="win"><a href="#win" class="headerlink" title="win:"></a>win:</h6><p><code>虚拟环境名\Scripts\activate.bat</code></p>
-<h6 id="mac-linux"><a href="#mac-linux" class="headerlink" title="mac/linux:"></a>mac/linux:</h6><p><code>source 虚拟环境名/bin/activate</code></p>
-<h2 id="3-退出虚拟环境deactivate"><a href="#3-退出虚拟环境deactivate" class="headerlink" title="3.退出虚拟环境deactivate"></a>3.退出虚拟环境<strong><code>deactivate</code></strong></h2><h2 id="4-pip管理包"><a href="#4-pip管理包" class="headerlink" title="4.pip管理包"></a>4.pip管理包</h2><p><code>pip install 包名</code></p>
-<h2 id="5-生成requirements-txt"><a href="#5-生成requirements-txt" class="headerlink" title="5.生成requirements.txt"></a>5.生成<strong>requirements.txt</strong></h2><p><code>pip freeze &gt; requirements.txt</code></p>
-<h2 id="6-使用requirements-txt"><a href="#6-使用requirements-txt" class="headerlink" title="6.使用requirements.txt"></a>6.使用<strong>requirements.txt</strong></h2><p><code>pip install -r requirements.txt</code></p>
-]]></content>
+    <title>深拷贝与浅拷贝</title>
+    <url>/2019/11/20/Python3.-%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/</url>
+    <content><![CDATA[<p>Python代码如下:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">foo &#x3D; [1,2]</span><br><span class="line">foo1 &#x3D; foo</span><br><span class="line">foo.append(3)</span><br></pre></td></tr></table></figure>
+<p>输出foo和foo1的值</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">foo &#x3D; [1,2,3]</span><br><span class="line">foo1 &#x3D; [1,2,3]</span><br></pre></td></tr></table></figure>
+<p>foo1 和 foo指向同一内存地址，foo.append(3)foo中添加了3，相应foo1也添加了3</p>
+<hr>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;0d4af069d7d3417ba772ed93331f9057</span><br><span class="line">来源：牛客网</span><br><span class="line"></span><br><span class="line">import copy</span><br><span class="line">a &#x3D; [1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;]] </span><br><span class="line">b &#x3D; a </span><br><span class="line">c &#x3D; copy.copy(a) </span><br><span class="line">d &#x3D; copy.deepcopy(a) </span><br><span class="line">a.append(5) </span><br><span class="line">a[4].append(&#39;c&#39;)</span><br></pre></td></tr></table></figure>
+<p>解析</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;0d4af069d7d3417ba772ed93331f9057</span><br><span class="line">来源：牛客网</span><br><span class="line"></span><br><span class="line">import copy</span><br><span class="line">a &#x3D; [1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;]] </span><br><span class="line">b &#x3D; a     # 引用，除非直接给a重新赋值，否则a变则b变，b变则a变</span><br><span class="line">c &#x3D; copy.copy(a)   # 浅复制，只会拷贝父对象， 不会拷贝父对象中的子对象，所以若a的子对象变则c 变,但是父对象变c不会变</span><br><span class="line">d &#x3D; copy.deepcopy(a) #深拷贝，完全拷贝，完全独立于原对象，a变也不变</span><br><span class="line">a.append(5) # 改变父对象</span><br><span class="line">a[4].append(&#39;c&#39;)  #改变父对象中的 [&#39;a&#39;, &#39;b&#39;]子对象</span><br><span class="line"></span><br><span class="line"># a&#x3D;[1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;,&#39;c&#39;],5] </span><br><span class="line">b&#x3D;[1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;,&#39;c&#39;],5] </span><br><span class="line">c&#x3D;[1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;,&#39;c&#39;]] </span><br><span class="line">d&#x3D;[1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;]]</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>Python</category>
       </categories>
       <tags>
-        <tag>虚拟环境</tag>
         <tag>Python</tag>
+        <tag>拷贝</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>bashrc修改导致linux系统指令不能用的解决方案</title>
+    <url>/2019/10/20/Linux1.-bashrc%E6%96%87%E4%BB%B6%E6%9B%B4%E6%94%B9%E5%AF%BC%E8%87%B4linux%E7%B3%BB%E7%BB%9F%E6%8C%87%E4%BB%A4%E4%B8%8D%E8%83%BD%E7%94%A8%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>参考博客:</p>
+<ul>
+<li><a href="https://www.cnblogs.com/chenglee/p/7476852.html" target="_blank" rel="noopener">https://www.cnblogs.com/chenglee/p/7476852.html</a></li>
+</ul>
+<p>解决方案：</p>
+<p>重新赋予环境变量PATH就行</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">export PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/bin</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>bashrc</tag>
       </tags>
   </entry>
   <entry>
@@ -175,361 +195,6 @@
       </categories>
       <tags>
         <tag>Python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LeetCode cpp代码缩减runtime</title>
-    <url>/2019/10/03/leetcode%E4%B8%AD%E6%8F%90%E5%8D%87%E4%BB%A3%E7%A0%81IO%E9%80%9F%E5%BA%A6/</url>
-    <content><![CDATA[<p>在leetcode第11题看到一个题解，添加到代码前面，大幅缩减runtime</p>
-<p>代码为：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static int speedup&#x3D;[]()&#123;</span><br><span class="line">	ios_base::sync_with_stdio(false);</span><br><span class="line">	cin.tie(nullptr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;();</span><br></pre></td></tr></table></figure>
-
-<p>leetcode11题解</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static int speedup&#x3D;[]()&#123;</span><br><span class="line">	ios_base::sync_with_stdio(false);</span><br><span class="line">	cin.tie(nullptr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;();</span><br><span class="line">class Solution</span><br><span class="line">&#123;</span><br><span class="line">public:</span><br><span class="line">    int maxArea(vector&lt;int&gt; &amp;height)</span><br><span class="line">    &#123;</span><br><span class="line">        int i &#x3D; 0, j &#x3D; height.size() - 1, water &#x3D; 0;</span><br><span class="line">        while (i &lt; j)</span><br><span class="line">        &#123;</span><br><span class="line">            int h &#x3D; min(height[i], height[j]);</span><br><span class="line">            water &#x3D; max(water, (j - i) * h);</span><br><span class="line">            while (height[i] &lt;&#x3D; h &amp;&amp; i &lt; j)</span><br><span class="line">                i++;</span><br><span class="line">            while (height[j] &lt;&#x3D; h &amp;&amp; i &lt; j)</span><br><span class="line">                j--;</span><br><span class="line">        &#125;</span><br><span class="line">        return water;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>LeetCode</category>
-      </categories>
-      <tags>
-        <tag>leetcode</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>谈谈我为什么将博客迁移到GitHub</title>
-    <url>/2020/03/10/%E6%9D%82%E8%B0%881.-%E8%B0%88%E8%B0%88%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%B0%86%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E5%88%B0GitHub-wiki/</url>
-    <content><![CDATA[<p>从17年开始有想写博客的冲动，先后尝试过51，简书，博客园，牛客网博客，自建wordpress，typo，最后稳定csdn快一年半多。</p>
-<p>自建站点很麻烦，需要自己去写配置，做页面美化，vps还会攻击，每年的vps+域名付费也让我这个学生党有点小难受，做维护需要一定的精力，搞过两个月的自建博客就放弃了。</p>
-<p>csdn一直是毒瘤，很多博客的都是copy后不加转载的原创，虽然很讨厌，但也一直在用，这次写了一篇关于国内git clone速度慢的解决方案，</p>
-<p><img src="https://github.com/WadeStack/note/blob/master/images/csdn-error.png" alt=""></p>
-<p>提了一句科学上网，然后审核就不通过，我就很无奈了，再加越来越多的广告和限制。自此放弃博客平台，转入github，使用github page+hexo。</p>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个后端开发工程师需要掌握什么</title>
-    <url>/2020/03/21/%E6%9D%82%E8%B0%882.-%E4%B8%80%E4%B8%AA%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E9%9C%80%E8%A6%81%E5%AD%A6%E7%82%B9%E4%BB%80%E4%B9%88/</url>
-    <content><![CDATA[<h1 id="Java方向"><a href="#Java方向" class="headerlink" title="Java方向"></a>Java方向</h1><p>JavaSE</p>
-<ul>
-<li>面向对象</li>
-<li>并发</li>
-<li>JVM</li>
-<li>GC</li>
-<li>常用类库</li>
-</ul>
-<p>JavaEE</p>
-<ul>
-<li>Spring</li>
-<li>Hibernate</li>
-<li>SpringMVC</li>
-<li>SpringBoot</li>
-<li>SpringCloud</li>
-<li>Mybatis</li>
-<li>Druid</li>
-<li>Swagger</li>
-<li>Apache Shiro</li>
-<li>Spring Security</li>
-<li>Spring Data</li>
-</ul>
-<p>打包部署</p>
-<ul>
-<li>Maven</li>
-<li>Docker</li>
-</ul>
-<h1 id="Python方向"><a href="#Python方向" class="headerlink" title="Python方向"></a>Python方向</h1><p>Python基础</p>
-<ul>
-<li><p>Flask</p>
-</li>
-<li><p>Django</p>
-</li>
-</ul>
-<h1 id="通用学习"><a href="#通用学习" class="headerlink" title="通用学习"></a>通用学习</h1><h3 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h3><ul>
-<li>Vue</li>
-<li>BootStrap</li>
-<li>Layui</li>
-</ul>
-<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><ul>
-<li>Nginx</li>
-</ul>
-<h3 id="小程序"><a href="#小程序" class="headerlink" title="小程序"></a>小程序</h3><h3 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h3><ul>
-<li>MySQL</li>
-<li>Redis</li>
-<li>MongoDB</li>
-</ul>
-<h3 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h3><ul>
-<li><p>Elasticsearch</p>
-</li>
-<li><p>solr</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-        <tag>后端</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>不用加减乘除做加法</title>
-    <url>/2019/10/10/%E7%AE%97%E6%B3%951.-%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95/</url>
-    <content><![CDATA[<h1 id="1-位运算"><a href="#1-位运算" class="headerlink" title="1.位运算"></a>1.位运算</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//链接：https://www.nowcoder.com/questionTerminal/59ac416b4b944300b617d4f7f111b215</span></span><br><span class="line"><span class="comment">//来源：牛客网</span></span><br><span class="line"><span class="comment">//Java</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1,<span class="keyword">int</span> num2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">while</span> (num2!=<span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">int</span> temp = num1^num2;</span><br><span class="line">            num2 = (num1&amp;num2)&lt;&lt;<span class="number">1</span>;</span><br><span class="line">            num1 = temp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> num1;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//C++:</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>        </span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1, <span class="keyword">int</span> num2)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> num2?Add(num1^num2,(num1&amp;num2)&lt;&lt;<span class="number">1</span>):num1;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-
-<h1 id="2-汇编"><a href="#2-汇编" class="headerlink" title="2.汇编"></a>2.汇编</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;59ac416b4b944300b617d4f7f111b215</span><br><span class="line">&#x2F;&#x2F;来源：牛客网</span><br><span class="line">int add(int a, int b)</span><br><span class="line">&#123;</span><br><span class="line">    _asm</span><br><span class="line">    &#123;</span><br><span class="line">        MOV EAX, a</span><br><span class="line">        MOV ECX, b</span><br><span class="line">        ADD EAX, ECX</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="3-自增自减"><a href="#3-自增自减" class="headerlink" title="3.自增自减"></a>3.自增自减</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//链接：https://www.nowcoder.com/questionTerminal/59ac416b4b944300b617d4f7f111b215</span></span><br><span class="line"><span class="comment">//来源：牛客网</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1,<span class="keyword">int</span> num2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(num1&gt;<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">while</span>(num1--!=<span class="number">0</span>)</span><br><span class="line">                num2++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(num1&lt;<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">while</span>(num1++!=<span class="number">0</span>)</span><br><span class="line">                num2--;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> num2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="4-通过指针"><a href="#4-通过指针" class="headerlink" title="4.通过指针"></a>4.通过指针</h1><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//链接：https://www.nowcoder.com/questionTerminal/59ac416b4b944300b617d4f7f111b215</span></span><br><span class="line"><span class="comment">//来源：牛客网</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1, <span class="keyword">int</span> num2)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">char</span>* a = <span class="keyword">reinterpret_cast</span>&lt;<span class="keyword">char</span>*&gt;(num1);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">reinterpret_cast</span>&lt;<span class="keyword">long</span>&gt;(&amp;(a[num2]));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-<h1 id="5-通过函数"><a href="#5-通过函数" class="headerlink" title="5.通过函数"></a>5.通过函数</h1> <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1, <span class="keyword">int</span> num2)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">return</span> Integer.sum(num1, num2);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="6-Integer-sum-源码"><a href="#6-Integer-sum-源码" class="headerlink" title="6.Integer.sum()源码"></a>6.Integer.sum()源码</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">sum</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a + b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的win端安装软件</title>
-    <url>/2020/03/20/%E6%9D%82%E8%B0%883.-%E6%88%91%E7%9A%84WIN%E7%AB%AF%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6/</url>
-    <content><![CDATA[<h2 id="开发工具"><a href="#开发工具" class="headerlink" title="开发工具"></a>开发工具</h2><ul>
-<li>Interlij IDEA</li>
-<li>Pycharm</li>
-<li>Maven</li>
-<li>Tomcat</li>
-<li>Git</li>
-<li>Robo3t</li>
-<li>Navicat</li>
-<li>Sublime</li>
-<li>Redis Manager</li>
-</ul>
-<p>数据库</p>
-<ul>
-<li>MySQL</li>
-<li>Redis</li>
-<li>MongoDB</li>
-</ul>
-<h2 id="语言环境"><a href="#语言环境" class="headerlink" title="语言环境"></a>语言环境</h2><ul>
-<li>JDK 1.8+</li>
-<li>Python3.6+</li>
-</ul>
-<h2 id="测试工具"><a href="#测试工具" class="headerlink" title="测试工具"></a>测试工具</h2><ul>
-<li>postman</li>
-</ul>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
-<li>VirtualBox</li>
-<li>Typora</li>
-<li>百度网盘</li>
-<li>Telegram</li>
-<li>Snipaste</li>
-<li>Xmind</li>
-<li>Xshell</li>
-<li>MobaXterm</li>
-<li>谷歌浏览器</li>
-<li>kxsw工具包</li>
-<li>极速PDF阅读器</li>
-</ul>
-]]></content>
-      <categories>
-        <category>杂谈</category>
-      </categories>
-      <tags>
-        <tag>常用软件</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>写一个函数找出一个整数数组中，第二大的数</title>
-    <url>/2019/09/09/%E7%AE%97%E6%B3%952.-%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E6%89%BE%E5%87%BA%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E6%95%B0%E7%BB%84%E4%B8%AD%EF%BC%8C%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E6%95%B0/</url>
-    <content><![CDATA[<h2 id="扩展问题："><a href="#扩展问题：" class="headerlink" title="扩展问题："></a>扩展问题：</h2><ol>
-<li>写一个函数找出一个整数数组中，第k大的数（堆排序）</li>
-</ol>
-<h2 id="考虑的情况："><a href="#考虑的情况：" class="headerlink" title="考虑的情况："></a>考虑的情况：</h2><ol>
-<li>数组长度&lt;2</li>
-<li>数组元素全部相同</li>
-<li>第二大值不止一个</li>
-</ol>
-<h2 id="代码实现："><a href="#代码实现：" class="headerlink" title="代码实现："></a>代码实现：</h2><ul>
-<li><p>实现1：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 实现： 返回第二大值</span></span><br><span class="line"><span class="comment">     * 1. 数组长度小于2，不存在第二大的值，返回-1</span></span><br><span class="line"><span class="comment">     * 2. 数组长度为2，返回两者中最小值</span></span><br><span class="line"><span class="comment">     * 3. 从前往后遍历一遍</span></span><br><span class="line"><span class="comment">     * 3.1 比最大值大，次大值变为最大值，最大值变为当前值</span></span><br><span class="line"><span class="comment">     * 3.2 只比次大值大，次大值变为当前值</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> a</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> 第二大值</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">max2</span><span class="params">(Integer[] a)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (a.length == <span class="number">2</span>)</span><br><span class="line">            <span class="keyword">return</span> a[<span class="number">0</span>] &gt; a[<span class="number">1</span>] ? a[<span class="number">1</span>] : a[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (a.length &gt; <span class="number">2</span>) &#123;</span><br><span class="line">            <span class="keyword">int</span> max1 = a[<span class="number">0</span>] &gt; a[<span class="number">1</span>] ? a[<span class="number">0</span>] : a[<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">int</span> max2 = a[<span class="number">0</span>] &gt; a[<span class="number">1</span>] ? a[<span class="number">1</span>] : a[<span class="number">0</span>];</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">2</span>; i &lt; a.length; i++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (a[i] &gt; max1) &#123;</span><br><span class="line">                    max2 = max1;</span><br><span class="line">                    max1 = a[i];</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (a[i] &gt; max2)</span><br><span class="line">                    max2 = a[i];</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> max2;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>实现2：先快排，再返回第二大的值</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>堆排序</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>BF和KMP的cpp代码实现</title>
-    <url>/2019/09/10/%E7%AE%97%E6%B3%954.-BF%E5%92%8CKMP/</url>
-    <content><![CDATA[<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BF算法</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BF</span><span class="params">(<span class="keyword">char</span> S[ ], <span class="keyword">char</span> T[ ])</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> S[]=<span class="string">"abcabcabcaccb"</span>;</span><br><span class="line">    <span class="keyword">char</span> T[]=<span class="string">"abcacc"</span>;</span><br><span class="line">    <span class="keyword">int</span> index=BF(S,T);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; index; i++)</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;T&lt;&lt;<span class="string">"在"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;S&lt;&lt;<span class="string">"中的位置是："</span>&lt;&lt;index&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BF</span><span class="params">(<span class="keyword">char</span> S[ ], <span class="keyword">char</span> T[ ])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> index = <span class="number">0</span>;                            <span class="comment">//主串从下标0开始第一趟匹配</span></span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;                           <span class="comment">//设置比较的起始下标</span></span><br><span class="line">    <span class="keyword">while</span> ((S[i] != <span class="string">'\0'</span>) &amp;&amp; (T[j] != <span class="string">'\0'</span>))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (S[i] == T[j])</span><br><span class="line">        &#123;</span><br><span class="line">            i++;</span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            index++;    <span class="comment">//i和j分别回溯</span></span><br><span class="line">            i = index;</span><br><span class="line">            j = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (T[j] == <span class="string">'\0'</span>)</span><br><span class="line">        <span class="keyword">return</span> index + <span class="number">1</span>;      <span class="comment">//返回本趟匹配的开始位置（不是下标）</span></span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//KMP算法</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">GetNext</span><span class="params">(<span class="keyword">char</span> T[ ], <span class="keyword">int</span> next[ ])</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">KMP</span><span class="params">(<span class="keyword">char</span> S[],<span class="keyword">char</span> T[])</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span>  S[]=<span class="string">"ababcabcacbab"</span>;</span><br><span class="line">    <span class="keyword">char</span>  T[]=<span class="string">"abcac"</span>;</span><br><span class="line">    <span class="keyword">int</span> index = KMP(S,T);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; index; i++)</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;T&lt;&lt;<span class="string">"在"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;S&lt;&lt;<span class="string">"中的位置是："</span>&lt;&lt;index&lt;&lt;<span class="built_in">endl</span>;;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">KMP</span><span class="params">(<span class="keyword">char</span> S[],<span class="keyword">char</span> T[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> next[<span class="number">80</span>] = &#123;<span class="number">-1</span>&#125;;</span><br><span class="line">    GetNext(T,next);</span><br><span class="line">    <span class="keyword">while</span> (S[i] != <span class="string">'\0'</span> &amp;&amp; T[j] != <span class="string">'\0'</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(S[i] == T[j])</span><br><span class="line">        &#123;</span><br><span class="line">            i++;</span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            j = next[j];</span><br><span class="line">            <span class="keyword">if</span> (j == <span class="number">-1</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                i++;</span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(T[j] == <span class="string">'\0'</span>)</span><br><span class="line">        <span class="keyword">return</span> i - <span class="built_in">strlen</span>(T) + <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">GetNext</span><span class="params">(<span class="keyword">char</span> T[], <span class="keyword">int</span> next[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i, j, len;</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">for</span> (j = <span class="number">1</span>; T[j]!=<span class="string">'\0'</span>; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (len = j - <span class="number">1</span>; len &gt;= <span class="number">1</span>; len--)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; len; i++)</span><br><span class="line">                <span class="keyword">if</span>(T[i] != T[j-len+i])</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">if</span> (i == len)</span><br><span class="line">            &#123;</span><br><span class="line">                next[j] = len;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (len &lt; <span class="number">1</span>)</span><br><span class="line">            next[j] = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 以下为改进的蛮力算法</span></span><br><span class="line"><span class="comment">void GetNext(char T[ ], int next[ ])</span></span><br><span class="line"><span class="comment">&#123;</span></span><br><span class="line"><span class="comment">	int j = 0, k = -1;</span></span><br><span class="line"><span class="comment">	next[0] = -1;</span></span><br><span class="line"><span class="comment">	while (T[j] != '\0')                           //直到字符串末尾</span></span><br><span class="line"><span class="comment">	&#123;</span></span><br><span class="line"><span class="comment">		if (k == -1) &#123;                           //无相同子串</span></span><br><span class="line"><span class="comment">			next[++j] = 0; k = 0;</span></span><br><span class="line"><span class="comment">		&#125;else if (T[j] == T[k]) &#123;                //确定next[j+1]的值</span></span><br><span class="line"><span class="comment">				k++;</span></span><br><span class="line"><span class="comment">				next[++j] = k;</span></span><br><span class="line"><span class="comment">			&#125; else k = next[k];          //取T[0]...T[j]的下一个相等子串的长度</span></span><br><span class="line"><span class="comment">	&#125;</span></span><br><span class="line"><span class="comment"> &#125;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//留着补充BM算法</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>KMP</tag>
-        <tag>BF</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>三个数中求最大最小值</title>
-    <url>/2019/09/10/%E7%AE%97%E6%B3%953.-%E4%B8%89%E4%B8%AA%E6%95%B0%E4%B8%AD%E6%B1%82%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%80%BC/</url>
-    <content><![CDATA[<p>以最小值代码分析：</p>
-<p>1.先用a和b比较，得到a、b中较小的那个数，再和c比较，最后得到最小值</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	if(a&lt;b)</span><br><span class="line">		return a&lt;c?a:c;</span><br><span class="line">	else</span><br><span class="line">		return b&lt;c?b:c; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>2.三个数的大小无非三种情况，a最小，b最小或者c最小，将三种情况直接列出。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	if(a&lt;&#x3D;b &amp;&amp; a&lt;&#x3D;c)</span><br><span class="line">		return a;</span><br><span class="line">	else if(b&lt;&#x3D;a &amp;&amp; b&lt;&#x3D;c)</span><br><span class="line">		return b;</span><br><span class="line">	else if(c&lt;&#x3D;a &amp;&amp; c&lt;&#x3D;b)</span><br><span class="line">		return c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>3.先用a、b分别和c比较，得到a、c中的较小和b、c中的较小，两个较小比较得到三个数中的最小</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	return a&lt;b?(a&lt;c?a:c):(b&lt;c?b:c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>4.先用a和b比较，得到a、b中较小的那个数，再和c比较，最后得到最小值。</p>
-<p>这一条是1.的三目运算符的实现</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	return (a&lt;b?a:b)&lt;c?(a&lt;b?a:b):c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>最值</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>二进制中1的个数</title>
-    <url>/2019/09/11/%E7%AE%97%E6%B3%955.-%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0/</url>
-    <content><![CDATA[<h1 id="二进制中1的个数"><a href="#二进制中1的个数" class="headerlink" title="二进制中1的个数"></a>二进制中1的个数</h1><h1 id="1-移位-计数"><a href="#1-移位-计数" class="headerlink" title="1.移位+计数"></a>1.移位+计数</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount1</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span>; </span><br><span class="line">    <span class="keyword">while</span> (n != <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>((n &amp; <span class="number">1</span>) == <span class="number">1</span>) <span class="comment">// 当前位是1</span></span><br><span class="line">            ++c ; <span class="comment">// 计数器加1</span></span><br><span class="line">        n &gt;&gt;=<span class="number">1</span> ; <span class="comment">// 移位</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="2-按1消除"><a href="#2-按1消除" class="headerlink" title="2.按1消除"></a>2.按1消除</h2><p>如果一个整数不为0，那么这个整数至少有一位是1。如果我们把这个整数减1，那么原来处在整数最右边的1就会变为0，原来在1后面的所有的0都会变成1(如果最右边的1后面还有0的话)。其余所有位将不会受到影响。<br>举个例子：一个二进制数1100，从右边数起第三位是处于最右边的一个1。减去1后，第三位变成0，它后面的两位0变成了1，而前面的1保持不变，因此得到的结果是1011.我们发现减1的结果是把最右边的一个1开始的所有位都取反了。这个时候如果我们再把原来的整数和减去1之后的结果做与运算，从原来整数最右边一个1那一位开始所有位都会变成0。如1100&amp;1011=1000.也就是说，把一个整数减去1，再和原整数做与运算，会把该整数最右边一个1变成0.那么一个整数的二进制有多少个1，就可以进行多少次这样的操作。</p>
-<p>链接：<a href="https://www.nowcoder.com/questionTerminal/8ee967e43c2c4ec193b040ea7fbb10b8?answerType=1&f=discussion" target="_blank" rel="noopener">https://www.nowcoder.com/questionTerminal/8ee967e43c2c4ec193b040ea7fbb10b8?answerType=1&amp;f=discussion</a><br>来源：牛客网</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">for</span> (c =<span class="number">0</span>; n!=; ++c)</span><br><span class="line">        n &amp;= (n -<span class="number">1</span>) ; <span class="comment">// 清除最低位的1</span></span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BitCount2的while实现版</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2_1</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">while</span>(n != <span class="number">0</span>)&#123;</span><br><span class="line">    c++;</span><br><span class="line">    n &amp;= (n-<span class="number">1</span>); <span class="comment">// 清除最低位的1</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BitCount2的终极蛇皮简化版</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2_2</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> ( ; n; ++c, n &amp;= (n -<span class="number">1</span>));</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="3-分治法"><a href="#3-分治法" class="headerlink" title="3.分治法"></a>3.分治法</h2><p>一个整数可以转为一个32位2进制数，统计32个位元中为1的个数，转化为统计2组16个位元为1的个数,统计16个位元为1的个数的问题有转化为统计2组16个位元为1的个数，分治到统计2个位元为1的个数。</p>
-<blockquote>
-<p>参考自《算法心得》<br>另还有3位段切分和4位段切分（统计x位段中为1的位元个数），详见《算法心得》</p>
-</blockquote>
-<p><img src="https://uploadfiles.nowcoder.com/images/20200312/1871642_1584015902259_08DBC6EC7EDDC430E1F5F434BBA21342" alt="图片说明" title="图片标题"></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int BitCount3(int x)&#123;</span><br><span class="line">    x &#x3D; (x &amp; 0x55555555) + ((x &gt;&gt;&gt; 1) &amp; 0x55555555);</span><br><span class="line">    x &#x3D; (x &amp; 0x33333333) + ((x &gt;&gt;&gt; 2) &amp; 0x33333333);</span><br><span class="line">    x &#x3D; (x &amp; 0x0f0f0f0f) + ((x &gt;&gt;&gt; 4) &amp; 0x0f0f0f0f);</span><br><span class="line">    x &#x3D; (x &amp; 0x00ff00ff) + ((x &gt;&gt;&gt; 8) &amp; 0x00ff00ff);</span><br><span class="line">    x &#x3D; (x &amp; 0x0000ffff) + ((x &gt;&gt;&gt; 16) &amp; 0x0000ffff);</span><br><span class="line">    return x;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="4-Integer-bitCount"><a href="#4-Integer-bitCount" class="headerlink" title="4.Integer.bitCount"></a>4.Integer.bitCount</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">BitCount4</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">	<span class="comment">// HD, Figure 5-2</span></span><br><span class="line">    i = i - ((i &gt;&gt;&gt; <span class="number">1</span>) &amp; <span class="number">0x55555555</span>);</span><br><span class="line">    i = (i &amp; <span class="number">0x33333333</span>) + ((i &gt;&gt;&gt; <span class="number">2</span>) &amp; <span class="number">0x33333333</span>);</span><br><span class="line">    i = (i + (i &gt;&gt;&gt; <span class="number">4</span>)) &amp; <span class="number">0x0f0f0f0f</span>;</span><br><span class="line">    i = i + (i &gt;&gt;&gt; <span class="number">8</span>);</span><br><span class="line">    i = i + (i &gt;&gt;&gt; <span class="number">16</span>);</span><br><span class="line">    <span class="keyword">return</span> i &amp; <span class="number">0x3f</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>位运算</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>二进制总结</title>
-    <url>/2019/02/07/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%801.-%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%80%BB%E7%BB%93/</url>
-    <content><![CDATA[<h3 id="1-编码"><a href="#1-编码" class="headerlink" title="1.编码"></a>1.编码</h3><table>
-<thead>
-<tr>
-<th align="left"></th>
-<th align="left">正数</th>
-<th align="left">负数</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">原码</td>
-<td align="left">0本体</td>
-<td align="left">1本体</td>
-</tr>
-<tr>
-<td align="left">补码</td>
-<td align="left">0本体</td>
-<td align="left">按位取反+1(符号位始终为1)</td>
-</tr>
-<tr>
-<td align="left">反码</td>
-<td align="left">0本体</td>
-<td align="left">按位取反(符号位始终为1)</td>
-</tr>
-</tbody></table>
-<h2 id="2-分类"><a href="#2-分类" class="headerlink" title="2.分类"></a>2.分类</h2><h5 id="有符号"><a href="#有符号" class="headerlink" title="有符号:"></a>有符号:</h5><h5 id="无符号"><a href="#无符号" class="headerlink" title="无符号:"></a>无符号:</h5><h2 id="3-位运算"><a href="#3-位运算" class="headerlink" title="3. 位运算"></a>3. 位运算</h2><h4 id="3-1-与-、或、异或"><a href="#3-1-与-、或、异或" class="headerlink" title="3.1 与 、或、异或"></a>3.1 与 、或、异或</h4><table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>与(&amp;)</td>
-<td>0&amp;0=0</td>
-<td>1&amp;0=0</td>
-<td>1&amp;1=1</td>
-</tr>
-<tr>
-<td>或(|)</td>
-<td>0|0=0</td>
-<td>0|1=1</td>
-<td>1|1=1</td>
-</tr>
-<tr>
-<td>异或(^)</td>
-<td>0^0=0</td>
-<td>1^0=1</td>
-<td>1^1=0</td>
-</tr>
-</tbody></table>
-<h4 id="3-2-左移"><a href="#3-2-左移" class="headerlink" title="3.2 左移"></a>3.2 左移</h4><h6 id="m-lt-lt-n"><a href="#m-lt-lt-n" class="headerlink" title="m&lt;&lt;n"></a>m&lt;&lt;n</h6><p>表示把m左移n位。往左移n位的时候，最左边的n位将被丢弃，同时在最右边补上n个0.</p>
-<p>exp：</p>
-<p>00<u><strong>001010</strong></u>&lt;&lt;2=<u><strong>001010</strong></u>00</p>
-<p>100<strong><u>01010</u></strong>&lt;&lt;3=<strong><u>01010</u></strong>000</p>
-<h4 id="3-3-右移"><a href="#3-3-右移" class="headerlink" title="3.3 右移"></a>3.3 右移</h4><h6 id="m-gt-gt-n"><a href="#m-gt-gt-n" class="headerlink" title="m&gt;&gt;n"></a>m&gt;&gt;n</h6><p>表示把m右移n位。往右移的时候，最右边的n位将被丢弃。</p>
-<p>如果数字之前是一个正数，则右移之后在最左边补n个0；</p>
-<p>如果数字之前是一个负数，则右移之后在最左边补n个1.</p>
-<p>exp:</p>
-<p><u><strong>000010</strong></u>10&gt;&gt;2=00<u><strong>000010</strong></u></p>
-<p><u><strong>10001</strong></u>010&gt;&gt;3=111<u><strong>10001</strong></u></p>
-<h4 id="3-4-应用"><a href="#3-4-应用" class="headerlink" title="3.4 应用"></a>3.4 应用</h4><h5 id="3-4-1-移位运算代替乘除法"><a href="#3-4-1-移位运算代替乘除法" class="headerlink" title="3.4.1 移位运算代替乘除法"></a>3.4.1 移位运算代替乘除法</h5><h5 id="3-4-2-右移一位-除以2"><a href="#3-4-2-右移一位-除以2" class="headerlink" title="3.4.2 右移一位 == 除以2"></a>3.4.2 右移一位 == 除以2</h5><h5 id="3-4-3-左移一位-乘以2"><a href="#3-4-3-左移一位-乘以2" class="headerlink" title="3.4.3 左移一位 == 乘以2"></a>3.4.3 左移一位 == 乘以2</h5><h6 id="二进制中1的个数"><a href="#二进制中1的个数" class="headerlink" title="二进制中1的个数"></a>二进制中1的个数</h6><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">NumberOf1</span><span class="params">(<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> count = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(n)</span><br><span class="line">    &#123;</span><br><span class="line">        ++count;</span><br><span class="line">        n = (n<span class="number">-1</span>) &amp; n;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> count;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h6 id="不用加减法做加法"><a href="#不用加减法做加法" class="headerlink" title="不用加减法做加法"></a>不用加减法做加法</h6><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1,<span class="keyword">int</span> num2)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum,carry;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        sum = num1 ^ num2;</span><br><span class="line">        carry = (num1 &amp; num2) &lt;&lt; <span class="number">1</span>;</span><br><span class="line">        num1 = sum;</span><br><span class="line">        num2 = carry;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>(num2 !=<span class="number">0</span> );</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> num1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>计算机基础</category>
-      </categories>
-      <tags>
-        <tag>二进制</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>深拷贝与浅拷贝</title>
-    <url>/2019/11/20/Python3.-%E6%B7%B1%E6%8B%B7%E8%B4%9D%E4%B8%8E%E6%B5%85%E6%8B%B7%E8%B4%9D/</url>
-    <content><![CDATA[<p>Python代码如下:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">foo &#x3D; [1,2]</span><br><span class="line">foo1 &#x3D; foo</span><br><span class="line">foo.append(3)</span><br></pre></td></tr></table></figure>
-<p>输出foo和foo1的值</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">foo &#x3D; [1,2,3]</span><br><span class="line">foo1 &#x3D; [1,2,3]</span><br></pre></td></tr></table></figure>
-<p>foo1 和 foo指向同一内存地址，foo.append(3)foo中添加了3，相应foo1也添加了3</p>
-<hr>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;0d4af069d7d3417ba772ed93331f9057</span><br><span class="line">来源：牛客网</span><br><span class="line"></span><br><span class="line">import copy</span><br><span class="line">a &#x3D; [1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;]] </span><br><span class="line">b &#x3D; a </span><br><span class="line">c &#x3D; copy.copy(a) </span><br><span class="line">d &#x3D; copy.deepcopy(a) </span><br><span class="line">a.append(5) </span><br><span class="line">a[4].append(&#39;c&#39;)</span><br></pre></td></tr></table></figure>
-<p>解析</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;0d4af069d7d3417ba772ed93331f9057</span><br><span class="line">来源：牛客网</span><br><span class="line"></span><br><span class="line">import copy</span><br><span class="line">a &#x3D; [1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;]] </span><br><span class="line">b &#x3D; a     # 引用，除非直接给a重新赋值，否则a变则b变，b变则a变</span><br><span class="line">c &#x3D; copy.copy(a)   # 浅复制，只会拷贝父对象， 不会拷贝父对象中的子对象，所以若a的子对象变则c 变,但是父对象变c不会变</span><br><span class="line">d &#x3D; copy.deepcopy(a) #深拷贝，完全拷贝，完全独立于原对象，a变也不变</span><br><span class="line">a.append(5) # 改变父对象</span><br><span class="line">a[4].append(&#39;c&#39;)  #改变父对象中的 [&#39;a&#39;, &#39;b&#39;]子对象</span><br><span class="line"></span><br><span class="line"># a&#x3D;[1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;,&#39;c&#39;],5] </span><br><span class="line">b&#x3D;[1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;,&#39;c&#39;],5] </span><br><span class="line">c&#x3D;[1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;,&#39;c&#39;]] </span><br><span class="line">d&#x3D;[1, 2, 3, 4, [&#39;a&#39;, &#39;b&#39;]]</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>Python</category>
-      </categories>
-      <tags>
-        <tag>Python</tag>
-        <tag>拷贝</tag>
       </tags>
   </entry>
   <entry>
@@ -715,6 +380,323 @@
       </tags>
   </entry>
   <entry>
+    <title>LeetCode cpp代码缩减runtime</title>
+    <url>/2019/10/03/leetcode%E4%B8%AD%E6%8F%90%E5%8D%87%E4%BB%A3%E7%A0%81IO%E9%80%9F%E5%BA%A6/</url>
+    <content><![CDATA[<p>在leetcode第11题看到一个题解，添加到代码前面，大幅缩减runtime</p>
+<p>代码为：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static int speedup&#x3D;[]()&#123;</span><br><span class="line">	ios_base::sync_with_stdio(false);</span><br><span class="line">	cin.tie(nullptr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;();</span><br></pre></td></tr></table></figure>
+
+<p>leetcode11题解</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">static int speedup&#x3D;[]()&#123;</span><br><span class="line">	ios_base::sync_with_stdio(false);</span><br><span class="line">	cin.tie(nullptr);</span><br><span class="line">	return 0;</span><br><span class="line">&#125;();</span><br><span class="line">class Solution</span><br><span class="line">&#123;</span><br><span class="line">public:</span><br><span class="line">    int maxArea(vector&lt;int&gt; &amp;height)</span><br><span class="line">    &#123;</span><br><span class="line">        int i &#x3D; 0, j &#x3D; height.size() - 1, water &#x3D; 0;</span><br><span class="line">        while (i &lt; j)</span><br><span class="line">        &#123;</span><br><span class="line">            int h &#x3D; min(height[i], height[j]);</span><br><span class="line">            water &#x3D; max(water, (j - i) * h);</span><br><span class="line">            while (height[i] &lt;&#x3D; h &amp;&amp; i &lt; j)</span><br><span class="line">                i++;</span><br><span class="line">            while (height[j] &lt;&#x3D; h &amp;&amp; i &lt; j)</span><br><span class="line">                j--;</span><br><span class="line">        &#125;</span><br><span class="line">        return water;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>LeetCode</category>
+      </categories>
+      <tags>
+        <tag>leetcode</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>是时候该放弃百度了</title>
+    <url>/2020/04/23/%E6%98%AF%E6%97%B6%E5%80%99%E8%AF%A5%E6%94%BE%E5%BC%83%E7%99%BE%E5%BA%A6%E7%BD%91%E7%9B%98%E4%BA%86/</url>
+    <content><![CDATA[<h1 id="知乎相关问题："><a href="#知乎相关问题：" class="headerlink" title="知乎相关问题："></a>知乎相关问题：</h1><ul>
+<li><a href="https://www.zhihu.com/question/388835247/answer/1166760742" target="_blank" rel="noopener">如何看待<em>百度网盘</em>默认开启加入用户激励计划，在用户不知情的情况下上传文件？</a></li>
+<li><a href="https://www.zhihu.com/question/389378065/answer/1168144031" target="_blank" rel="noopener">如何看待<em>百度网盘</em>道歉，将对「用户激励计划」全部用户做取消处理？</a></li>
+<li><a href="https://www.zhihu.com/question/369299799/answer/1166376608" target="_blank" rel="noopener"><em>百度网盘</em>用户激励计划是什么？</a></li>
+<li><a href="https://www.zhihu.com/question/20011323/answer/218477529" target="_blank" rel="noopener">为什么很多人都说<em>百度</em>是家缺德的公司？</a></li>
+<li><a href="https://www.zhihu.com/question/39442061/answer/153192152" target="_blank" rel="noopener"><em>百度</em>到底作<em>了哪些恶</em>？</a></li>
+</ul>
+<h1 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h1><p><img src="/images/image-20200423154550485.png" alt="image-20200423154550485"></p>
+<p>我来给翻译翻译：</p>
+<ul>
+<li><p>美好-用户可以用来薅羊毛，确实美好</p>
+</li>
+<li><p>永远陪伴-永远褥用户的带宽，把用户当肉鸡。</p>
+</li>
+</ul>
+<p>百度网盘，无疑是国内市场NO.1的网盘提供商，可是一次又一次作恶，让我不得不放弃它了。</p>
+<h1 id="百度网盘的恶"><a href="#百度网盘的恶" class="headerlink" title="百度网盘的恶"></a>百度网盘的恶</h1><h2 id="无脑限速"><a href="#无脑限速" class="headerlink" title="无脑限速"></a>无脑限速</h2><p>个位数kb/s的下载速度，vip还不具备下载加速，要加速只能选择svip，记得再次再出个ssvip。</p>
+<p>这是我svip的速度，100M的电信宽带。</p>
+<img src="/images/image-20200423154147565.png" alt="image-20200423154147565" style="zoom:50%;" />
+
+<h2 id="用户激励计划"><a href="#用户激励计划" class="headerlink" title="用户激励计划"></a>用户激励计划</h2><img src="/images/image-20200423154238660.png" alt="image-20200423154238660" style="zoom:67%;" />
+
+<p>在知乎看到关于百度网盘用户激励计划之前，我是根本不了解这个东西的，查看了一下，我的账号是2019年5月多就开始“被自愿”加入用户激励计划了。最多一天30积分，蓐了我多少带宽，最近十几天薅了我快10g的流量。</p>
+<img src="/images/image-20200423151910337.png" alt="image-20200423151910337" style="zoom:67%;" />
+
+<h3 id="用户激励藏在哪"><a href="#用户激励藏在哪" class="headerlink" title="用户激励藏在哪"></a>用户激励藏在哪</h3><p>打开桌面客户端-&gt;设置-&gt;传输-高级设置，默认是勾选用户激励计划，取消勾选，百度照样薅你的带宽，不信，测试一下。</p>
+<p><img src="/images/image-20200423151010923.png" alt="image-20200423151010923" style="zoom:50%;" /><img src="/images/image-20200423151030241.png" alt="image-20200423151030241"></p>
+<img src="/images/image-20200423151106010.png" alt="image-20200423151106010" style="zoom:50%;" />
+
+<h3 id="百度云p2p有多狠"><a href="#百度云p2p有多狠" class="headerlink" title="百度云p2p有多狠"></a>百度云p2p有多狠</h3><p>我把百度云上传速度设为最小的1kb，火绒也把程序上传限速为10kb。</p>
+<img src="/images/image-20200423150143753.png" alt="image-20200423150143753" style="zoom:67%;" />
+
+<p>而后台检测到的速度为多少呢</p>
+<p>大于10kb，百度你真的可以。（没禁用前，有时能跑到1-2mb/s的上传速度，已超过用户激励计划的1MB带宽）</p>
+<p><img src="/images/image-20200423151608338.png" alt="image-20200423151608338"></p>
+<p>现在我已更换OneDrive+双移动硬盘，百度，一次又一次把自己玩崩。</p>
+<h2 id="资源和谐"><a href="#资源和谐" class="headerlink" title="资源和谐"></a>资源和谐</h2><p>资源会突然被和谐，哪怕你压根没有传播，用百度网盘备份要小心了，备份的东西会随时有可能因为莫名其妙的原因被和谐。</p>
+<p>没有隐私和保密性。后台人员可以随时观看你存在网盘里的资源，要不然你怎么被和谐的？用百度网盘等于把你的隐私等于公之于众。</p>
+<h1 id="百度旗下产品的替代品："><a href="#百度旗下产品的替代品：" class="headerlink" title="百度旗下产品的替代品："></a>百度旗下产品的替代品：</h1><h2 id="搜索"><a href="#搜索" class="headerlink" title="搜索:"></a>搜索:</h2><ul>
+<li>必应</li>
+<li>谷歌</li>
+</ul>
+<h2 id="网盘"><a href="#网盘" class="headerlink" title="网盘:"></a>网盘:</h2><ul>
+<li>OneDrive</li>
+<li>坚果云</li>
+<li>移动硬盘+NAS</li>
+</ul>
+<h1 id="写在最后："><a href="#写在最后：" class="headerlink" title="写在最后："></a>写在最后：</h1><p>互联网时代，你是否愿意用隐私换取便利？你愿意做一个透明人吗？</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>百度网盘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>谈谈我为什么将博客迁移到GitHub</title>
+    <url>/2020/03/10/%E6%9D%82%E8%B0%881.-%E8%B0%88%E8%B0%88%E6%88%91%E4%B8%BA%E4%BB%80%E4%B9%88%E5%B0%86%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E5%88%B0GitHub-wiki/</url>
+    <content><![CDATA[<p>从17年开始有想写博客的冲动，先后尝试过51，简书，博客园，牛客网博客，自建wordpress，typo，最后稳定csdn快一年半多。</p>
+<p>自建站点很麻烦，需要自己去写配置，做页面美化，vps还会攻击，每年的vps+域名付费也让我这个学生党有点小难受，做维护需要一定的精力，搞过两个月的自建博客就放弃了。</p>
+<p>csdn一直是毒瘤，很多博客的都是copy后不加转载的原创，虽然很讨厌，但也一直在用，这次写了一篇关于国内git clone速度慢的解决方案，</p>
+<p><img src="https://github.com/WadeStack/note/blob/master/images/csdn-error.png" alt=""></p>
+<p>提了一句科学上网，然后审核就不通过，我就很无奈了，再加越来越多的广告和限制。自此放弃博客平台，转入github，使用github page+hexo。</p>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的win端安装软件</title>
+    <url>/2020/03/20/%E6%9D%82%E8%B0%883.-%E6%88%91%E7%9A%84WIN%E7%AB%AF%E5%AE%89%E8%A3%85%E8%BD%AF%E4%BB%B6/</url>
+    <content><![CDATA[<h2 id="开发工具"><a href="#开发工具" class="headerlink" title="开发工具"></a>开发工具</h2><ul>
+<li>Interlij IDEA</li>
+<li>Pycharm</li>
+<li>Maven</li>
+<li>Tomcat</li>
+<li>Git</li>
+<li>Robo3t</li>
+<li>Navicat</li>
+<li>Sublime</li>
+<li>Redis Manager</li>
+</ul>
+<p>数据库</p>
+<ul>
+<li>MySQL</li>
+<li>Redis</li>
+<li>MongoDB</li>
+</ul>
+<h2 id="语言环境"><a href="#语言环境" class="headerlink" title="语言环境"></a>语言环境</h2><ul>
+<li>JDK 1.8+</li>
+<li>Python3.6+</li>
+</ul>
+<h2 id="测试工具"><a href="#测试工具" class="headerlink" title="测试工具"></a>测试工具</h2><ul>
+<li>postman</li>
+</ul>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ul>
+<li>VirtualBox</li>
+<li>Typora</li>
+<li>百度网盘</li>
+<li>Telegram</li>
+<li>Snipaste</li>
+<li>Xmind</li>
+<li>Xshell</li>
+<li>MobaXterm</li>
+<li>谷歌浏览器</li>
+<li>kxsw工具包</li>
+<li>极速PDF阅读器</li>
+</ul>
+]]></content>
+      <categories>
+        <category>杂谈</category>
+      </categories>
+      <tags>
+        <tag>常用软件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>不用加减乘除做加法</title>
+    <url>/2019/10/10/%E7%AE%97%E6%B3%951.-%E4%B8%8D%E7%94%A8%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%81%9A%E5%8A%A0%E6%B3%95/</url>
+    <content><![CDATA[<h1 id="1-位运算"><a href="#1-位运算" class="headerlink" title="1.位运算"></a>1.位运算</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//链接：https://www.nowcoder.com/questionTerminal/59ac416b4b944300b617d4f7f111b215</span></span><br><span class="line"><span class="comment">//来源：牛客网</span></span><br><span class="line"><span class="comment">//Java</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1,<span class="keyword">int</span> num2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">while</span> (num2!=<span class="number">0</span>) &#123;</span><br><span class="line">            <span class="keyword">int</span> temp = num1^num2;</span><br><span class="line">            num2 = (num1&amp;num2)&lt;&lt;<span class="number">1</span>;</span><br><span class="line">            num1 = temp;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> num1;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//C++:</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>        </span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1, <span class="keyword">int</span> num2)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> num2?Add(num1^num2,(num1&amp;num2)&lt;&lt;<span class="number">1</span>):num1;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="2-汇编"><a href="#2-汇编" class="headerlink" title="2.汇编"></a>2.汇编</h1><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;链接：https:&#x2F;&#x2F;www.nowcoder.com&#x2F;questionTerminal&#x2F;59ac416b4b944300b617d4f7f111b215</span><br><span class="line">&#x2F;&#x2F;来源：牛客网</span><br><span class="line">int add(int a, int b)</span><br><span class="line">&#123;</span><br><span class="line">    _asm</span><br><span class="line">    &#123;</span><br><span class="line">        MOV EAX, a</span><br><span class="line">        MOV ECX, b</span><br><span class="line">        ADD EAX, ECX</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="3-自增自减"><a href="#3-自增自减" class="headerlink" title="3.自增自减"></a>3.自增自减</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//链接：https://www.nowcoder.com/questionTerminal/59ac416b4b944300b617d4f7f111b215</span></span><br><span class="line"><span class="comment">//来源：牛客网</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Solution</span> </span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1,<span class="keyword">int</span> num2)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(num1&gt;<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">while</span>(num1--!=<span class="number">0</span>)</span><br><span class="line">                num2++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span>(num1&lt;<span class="number">0</span>)&#123;</span><br><span class="line">            <span class="keyword">while</span>(num1++!=<span class="number">0</span>)</span><br><span class="line">                num2--;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> num2;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="4-通过指针"><a href="#4-通过指针" class="headerlink" title="4.通过指针"></a>4.通过指针</h1><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//链接：https://www.nowcoder.com/questionTerminal/59ac416b4b944300b617d4f7f111b215</span></span><br><span class="line"><span class="comment">//来源：牛客网</span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span> &#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1, <span class="keyword">int</span> num2)</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="keyword">char</span>* a = <span class="keyword">reinterpret_cast</span>&lt;<span class="keyword">char</span>*&gt;(num1);</span><br><span class="line">        <span class="keyword">return</span> <span class="keyword">reinterpret_cast</span>&lt;<span class="keyword">long</span>&gt;(&amp;(a[num2]));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h1 id="5-通过函数"><a href="#5-通过函数" class="headerlink" title="5.通过函数"></a>5.通过函数</h1> <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1, <span class="keyword">int</span> num2)</span> </span>&#123;</span><br><span class="line">   <span class="keyword">return</span> Integer.sum(num1, num2);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="6-Integer-sum-源码"><a href="#6-Integer-sum-源码" class="headerlink" title="6.Integer.sum()源码"></a>6.Integer.sum()源码</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">sum</span><span class="params">(<span class="keyword">int</span> a, <span class="keyword">int</span> b)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a + b;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个后端开发工程师需要掌握什么</title>
+    <url>/2020/03/21/%E6%9D%82%E8%B0%882.-%E4%B8%80%E4%B8%AA%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%B7%A5%E7%A8%8B%E5%B8%88%E9%9C%80%E8%A6%81%E5%AD%A6%E7%82%B9%E4%BB%80%E4%B9%88/</url>
+    <content><![CDATA[<h1 id="Java方向"><a href="#Java方向" class="headerlink" title="Java方向"></a>Java方向</h1><p>JavaSE</p>
+<ul>
+<li>面向对象</li>
+<li>并发</li>
+<li>JVM</li>
+<li>GC</li>
+<li>常用类库</li>
+</ul>
+<p>JavaEE</p>
+<ul>
+<li>Spring</li>
+<li>Hibernate</li>
+<li>SpringMVC</li>
+<li>SpringBoot</li>
+<li>SpringCloud</li>
+<li>Mybatis</li>
+<li>Druid</li>
+<li>Swagger</li>
+<li>Apache Shiro</li>
+<li>Spring Security</li>
+<li>Spring Data</li>
+</ul>
+<p>打包部署</p>
+<ul>
+<li>Maven</li>
+<li>Docker</li>
+</ul>
+<h1 id="Python方向"><a href="#Python方向" class="headerlink" title="Python方向"></a>Python方向</h1><p>Python基础</p>
+<ul>
+<li><p>Flask</p>
+</li>
+<li><p>Django</p>
+</li>
+</ul>
+<h1 id="通用学习"><a href="#通用学习" class="headerlink" title="通用学习"></a>通用学习</h1><h3 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h3><ul>
+<li>Vue</li>
+<li>BootStrap</li>
+<li>Layui</li>
+</ul>
+<h3 id="部署"><a href="#部署" class="headerlink" title="部署"></a>部署</h3><ul>
+<li>Nginx</li>
+</ul>
+<h3 id="小程序"><a href="#小程序" class="headerlink" title="小程序"></a>小程序</h3><h3 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h3><ul>
+<li>MySQL</li>
+<li>Redis</li>
+<li>MongoDB</li>
+</ul>
+<h3 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h3><ul>
+<li><p>Elasticsearch</p>
+</li>
+<li><p>solr</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>后端</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>写一个函数找出一个整数数组中，第二大的数</title>
+    <url>/2019/09/09/%E7%AE%97%E6%B3%952.-%E5%86%99%E4%B8%80%E4%B8%AA%E5%87%BD%E6%95%B0%E6%89%BE%E5%87%BA%E4%B8%80%E4%B8%AA%E6%95%B4%E6%95%B0%E6%95%B0%E7%BB%84%E4%B8%AD%EF%BC%8C%E7%AC%AC%E4%BA%8C%E5%A4%A7%E7%9A%84%E6%95%B0/</url>
+    <content><![CDATA[<h2 id="扩展问题："><a href="#扩展问题：" class="headerlink" title="扩展问题："></a>扩展问题：</h2><ol>
+<li>写一个函数找出一个整数数组中，第k大的数（堆排序）</li>
+</ol>
+<h2 id="考虑的情况："><a href="#考虑的情况：" class="headerlink" title="考虑的情况："></a>考虑的情况：</h2><ol>
+<li>数组长度&lt;2</li>
+<li>数组元素全部相同</li>
+<li>第二大值不止一个</li>
+</ol>
+<h2 id="代码实现："><a href="#代码实现：" class="headerlink" title="代码实现："></a>代码实现：</h2><ul>
+<li><p>实现1：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 实现： 返回第二大值</span></span><br><span class="line"><span class="comment">     * 1. 数组长度小于2，不存在第二大的值，返回-1</span></span><br><span class="line"><span class="comment">     * 2. 数组长度为2，返回两者中最小值</span></span><br><span class="line"><span class="comment">     * 3. 从前往后遍历一遍</span></span><br><span class="line"><span class="comment">     * 3.1 比最大值大，次大值变为最大值，最大值变为当前值</span></span><br><span class="line"><span class="comment">     * 3.2 只比次大值大，次大值变为当前值</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> a</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> 第二大值</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">max2</span><span class="params">(Integer[] a)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (a.length == <span class="number">2</span>)</span><br><span class="line">            <span class="keyword">return</span> a[<span class="number">0</span>] &gt; a[<span class="number">1</span>] ? a[<span class="number">1</span>] : a[<span class="number">0</span>];</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">if</span> (a.length &gt; <span class="number">2</span>) &#123;</span><br><span class="line">            <span class="keyword">int</span> max1 = a[<span class="number">0</span>] &gt; a[<span class="number">1</span>] ? a[<span class="number">0</span>] : a[<span class="number">1</span>];</span><br><span class="line">            <span class="keyword">int</span> max2 = a[<span class="number">0</span>] &gt; a[<span class="number">1</span>] ? a[<span class="number">1</span>] : a[<span class="number">0</span>];</span><br><span class="line">            <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">2</span>; i &lt; a.length; i++) &#123;</span><br><span class="line">                <span class="keyword">if</span> (a[i] &gt; max1) &#123;</span><br><span class="line">                    max2 = max1;</span><br><span class="line">                    max1 = a[i];</span><br><span class="line">                &#125; <span class="keyword">else</span> <span class="keyword">if</span> (a[i] &gt; max2)</span><br><span class="line">                    max2 = a[i];</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">return</span> max2;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>实现2：先快排，再返回第二大的值</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>堆排序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>三个数中求最大最小值</title>
+    <url>/2019/09/10/%E7%AE%97%E6%B3%953.-%E4%B8%89%E4%B8%AA%E6%95%B0%E4%B8%AD%E6%B1%82%E6%9C%80%E5%A4%A7%E6%9C%80%E5%B0%8F%E5%80%BC/</url>
+    <content><![CDATA[<p>以最小值代码分析：</p>
+<p>1.先用a和b比较，得到a、b中较小的那个数，再和c比较，最后得到最小值</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	if(a&lt;b)</span><br><span class="line">		return a&lt;c?a:c;</span><br><span class="line">	else</span><br><span class="line">		return b&lt;c?b:c; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>2.三个数的大小无非三种情况，a最小，b最小或者c最小，将三种情况直接列出。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	if(a&lt;&#x3D;b &amp;&amp; a&lt;&#x3D;c)</span><br><span class="line">		return a;</span><br><span class="line">	else if(b&lt;&#x3D;a &amp;&amp; b&lt;&#x3D;c)</span><br><span class="line">		return b;</span><br><span class="line">	else if(c&lt;&#x3D;a &amp;&amp; c&lt;&#x3D;b)</span><br><span class="line">		return c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>3.先用a、b分别和c比较，得到a、c中的较小和b、c中的较小，两个较小比较得到三个数中的最小</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	return a&lt;b?(a&lt;c?a:c):(b&lt;c?b:c);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>4.先用a和b比较，得到a、b中较小的那个数，再和c比较，最后得到最小值。</p>
+<p>这一条是1.的三目运算符的实现</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int max(int a,int b,int c)</span><br><span class="line">&#123;</span><br><span class="line">	return (a&lt;b?a:b)&lt;c?(a&lt;b?a:b):c;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>最值</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>BF和KMP的cpp代码实现</title>
+    <url>/2019/09/10/%E7%AE%97%E6%B3%954.-BF%E5%92%8CKMP/</url>
+    <content><![CDATA[<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BF算法</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BF</span><span class="params">(<span class="keyword">char</span> S[ ], <span class="keyword">char</span> T[ ])</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span> S[]=<span class="string">"abcabcabcaccb"</span>;</span><br><span class="line">    <span class="keyword">char</span> T[]=<span class="string">"abcacc"</span>;</span><br><span class="line">    <span class="keyword">int</span> index=BF(S,T);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; index; i++)</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;T&lt;&lt;<span class="string">"在"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;S&lt;&lt;<span class="string">"中的位置是："</span>&lt;&lt;index&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BF</span><span class="params">(<span class="keyword">char</span> S[ ], <span class="keyword">char</span> T[ ])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> index = <span class="number">0</span>;                            <span class="comment">//主串从下标0开始第一趟匹配</span></span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;                           <span class="comment">//设置比较的起始下标</span></span><br><span class="line">    <span class="keyword">while</span> ((S[i] != <span class="string">'\0'</span>) &amp;&amp; (T[j] != <span class="string">'\0'</span>))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span> (S[i] == T[j])</span><br><span class="line">        &#123;</span><br><span class="line">            i++;</span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            index++;    <span class="comment">//i和j分别回溯</span></span><br><span class="line">            i = index;</span><br><span class="line">            j = <span class="number">0</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> (T[j] == <span class="string">'\0'</span>)</span><br><span class="line">        <span class="keyword">return</span> index + <span class="number">1</span>;      <span class="comment">//返回本趟匹配的开始位置（不是下标）</span></span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//KMP算法</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">GetNext</span><span class="params">(<span class="keyword">char</span> T[ ], <span class="keyword">int</span> next[ ])</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">KMP</span><span class="params">(<span class="keyword">char</span> S[],<span class="keyword">char</span> T[])</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">char</span>  S[]=<span class="string">"ababcabcacbab"</span>;</span><br><span class="line">    <span class="keyword">char</span>  T[]=<span class="string">"abcac"</span>;</span><br><span class="line">    <span class="keyword">int</span> index = KMP(S,T);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">1</span>; i &lt; index; i++)</span><br><span class="line">        <span class="built_in">cout</span>&lt;&lt;<span class="string">" "</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;T&lt;&lt;<span class="string">"在"</span>&lt;&lt;<span class="built_in">endl</span>;</span><br><span class="line">    <span class="built_in">cout</span>&lt;&lt;S&lt;&lt;<span class="string">"中的位置是："</span>&lt;&lt;index&lt;&lt;<span class="built_in">endl</span>;;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">KMP</span><span class="params">(<span class="keyword">char</span> S[],<span class="keyword">char</span> T[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>, j = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> next[<span class="number">80</span>] = &#123;<span class="number">-1</span>&#125;;</span><br><span class="line">    GetNext(T,next);</span><br><span class="line">    <span class="keyword">while</span> (S[i] != <span class="string">'\0'</span> &amp;&amp; T[j] != <span class="string">'\0'</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(S[i] == T[j])</span><br><span class="line">        &#123;</span><br><span class="line">            i++;</span><br><span class="line">            j++;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">        &#123;</span><br><span class="line">            j = next[j];</span><br><span class="line">            <span class="keyword">if</span> (j == <span class="number">-1</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                i++;</span><br><span class="line">                j++;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span>(T[j] == <span class="string">'\0'</span>)</span><br><span class="line">        <span class="keyword">return</span> i - <span class="built_in">strlen</span>(T) + <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">else</span></span><br><span class="line">        <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">GetNext</span><span class="params">(<span class="keyword">char</span> T[], <span class="keyword">int</span> next[])</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i, j, len;</span><br><span class="line">    next[<span class="number">0</span>] = <span class="number">-1</span>;</span><br><span class="line">    <span class="keyword">for</span> (j = <span class="number">1</span>; T[j]!=<span class="string">'\0'</span>; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (len = j - <span class="number">1</span>; len &gt;= <span class="number">1</span>; len--)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; len; i++)</span><br><span class="line">                <span class="keyword">if</span>(T[i] != T[j-len+i])</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">if</span> (i == len)</span><br><span class="line">            &#123;</span><br><span class="line">                next[j] = len;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (len &lt; <span class="number">1</span>)</span><br><span class="line">            next[j] = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">/* 以下为改进的蛮力算法</span></span><br><span class="line"><span class="comment">void GetNext(char T[ ], int next[ ])</span></span><br><span class="line"><span class="comment">&#123;</span></span><br><span class="line"><span class="comment">	int j = 0, k = -1;</span></span><br><span class="line"><span class="comment">	next[0] = -1;</span></span><br><span class="line"><span class="comment">	while (T[j] != '\0')                           //直到字符串末尾</span></span><br><span class="line"><span class="comment">	&#123;</span></span><br><span class="line"><span class="comment">		if (k == -1) &#123;                           //无相同子串</span></span><br><span class="line"><span class="comment">			next[++j] = 0; k = 0;</span></span><br><span class="line"><span class="comment">		&#125;else if (T[j] == T[k]) &#123;                //确定next[j+1]的值</span></span><br><span class="line"><span class="comment">				k++;</span></span><br><span class="line"><span class="comment">				next[++j] = k;</span></span><br><span class="line"><span class="comment">			&#125; else k = next[k];          //取T[0]...T[j]的下一个相等子串的长度</span></span><br><span class="line"><span class="comment">	&#125;</span></span><br><span class="line"><span class="comment"> &#125;</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//留着补充BM算法</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>KMP</tag>
+        <tag>BF</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二进制中1的个数</title>
+    <url>/2019/09/11/%E7%AE%97%E6%B3%955.-%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%B8%AD1%E7%9A%84%E4%B8%AA%E6%95%B0/</url>
+    <content><![CDATA[<h1 id="二进制中1的个数"><a href="#二进制中1的个数" class="headerlink" title="二进制中1的个数"></a>二进制中1的个数</h1><h1 id="1-移位-计数"><a href="#1-移位-计数" class="headerlink" title="1.移位+计数"></a>1.移位+计数</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount1</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span>; </span><br><span class="line">    <span class="keyword">while</span> (n != <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>((n &amp; <span class="number">1</span>) == <span class="number">1</span>) <span class="comment">// 当前位是1</span></span><br><span class="line">            ++c ; <span class="comment">// 计数器加1</span></span><br><span class="line">        n &gt;&gt;=<span class="number">1</span> ; <span class="comment">// 移位</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="2-按1消除"><a href="#2-按1消除" class="headerlink" title="2.按1消除"></a>2.按1消除</h2><p>如果一个整数不为0，那么这个整数至少有一位是1。如果我们把这个整数减1，那么原来处在整数最右边的1就会变为0，原来在1后面的所有的0都会变成1(如果最右边的1后面还有0的话)。其余所有位将不会受到影响。<br>举个例子：一个二进制数1100，从右边数起第三位是处于最右边的一个1。减去1后，第三位变成0，它后面的两位0变成了1，而前面的1保持不变，因此得到的结果是1011.我们发现减1的结果是把最右边的一个1开始的所有位都取反了。这个时候如果我们再把原来的整数和减去1之后的结果做与运算，从原来整数最右边一个1那一位开始所有位都会变成0。如1100&amp;1011=1000.也就是说，把一个整数减去1，再和原整数做与运算，会把该整数最右边一个1变成0.那么一个整数的二进制有多少个1，就可以进行多少次这样的操作。</p>
+<p>链接：<a href="https://www.nowcoder.com/questionTerminal/8ee967e43c2c4ec193b040ea7fbb10b8?answerType=1&f=discussion" target="_blank" rel="noopener">https://www.nowcoder.com/questionTerminal/8ee967e43c2c4ec193b040ea7fbb10b8?answerType=1&amp;f=discussion</a><br>来源：牛客网</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">for</span> (c =<span class="number">0</span>; n!=; ++c)</span><br><span class="line">        n &amp;= (n -<span class="number">1</span>) ; <span class="comment">// 清除最低位的1</span></span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BitCount2的while实现版</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2_1</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">while</span>(n != <span class="number">0</span>)&#123;</span><br><span class="line">    c++;</span><br><span class="line">    n &amp;= (n-<span class="number">1</span>); <span class="comment">// 清除最低位的1</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//BitCount2的终极蛇皮简化版</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">BitCount2_2</span><span class="params">(<span class="keyword">int</span> n)</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> c = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> ( ; n; ++c, n &amp;= (n -<span class="number">1</span>));</span><br><span class="line">    <span class="keyword">return</span> c ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="3-分治法"><a href="#3-分治法" class="headerlink" title="3.分治法"></a>3.分治法</h2><p>一个整数可以转为一个32位2进制数，统计32个位元中为1的个数，转化为统计2组16个位元为1的个数,统计16个位元为1的个数的问题有转化为统计2组16个位元为1的个数，分治到统计2个位元为1的个数。</p>
+<blockquote>
+<p>参考自《算法心得》<br>另还有3位段切分和4位段切分（统计x位段中为1的位元个数），详见《算法心得》</p>
+</blockquote>
+<p><img src="https://uploadfiles.nowcoder.com/images/20200312/1871642_1584015902259_08DBC6EC7EDDC430E1F5F434BBA21342" alt="图片说明" title="图片标题"></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">int BitCount3(int x)&#123;</span><br><span class="line">    x &#x3D; (x &amp; 0x55555555) + ((x &gt;&gt;&gt; 1) &amp; 0x55555555);</span><br><span class="line">    x &#x3D; (x &amp; 0x33333333) + ((x &gt;&gt;&gt; 2) &amp; 0x33333333);</span><br><span class="line">    x &#x3D; (x &amp; 0x0f0f0f0f) + ((x &gt;&gt;&gt; 4) &amp; 0x0f0f0f0f);</span><br><span class="line">    x &#x3D; (x &amp; 0x00ff00ff) + ((x &gt;&gt;&gt; 8) &amp; 0x00ff00ff);</span><br><span class="line">    x &#x3D; (x &amp; 0x0000ffff) + ((x &gt;&gt;&gt; 16) &amp; 0x0000ffff);</span><br><span class="line">    return x;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-Integer-bitCount"><a href="#4-Integer-bitCount" class="headerlink" title="4.Integer.bitCount"></a>4.Integer.bitCount</h2><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">int</span> <span class="title">BitCount4</span><span class="params">(<span class="keyword">int</span> i)</span> </span>&#123;</span><br><span class="line">	<span class="comment">// HD, Figure 5-2</span></span><br><span class="line">    i = i - ((i &gt;&gt;&gt; <span class="number">1</span>) &amp; <span class="number">0x55555555</span>);</span><br><span class="line">    i = (i &amp; <span class="number">0x33333333</span>) + ((i &gt;&gt;&gt; <span class="number">2</span>) &amp; <span class="number">0x33333333</span>);</span><br><span class="line">    i = (i + (i &gt;&gt;&gt; <span class="number">4</span>)) &amp; <span class="number">0x0f0f0f0f</span>;</span><br><span class="line">    i = i + (i &gt;&gt;&gt; <span class="number">8</span>);</span><br><span class="line">    i = i + (i &gt;&gt;&gt; <span class="number">16</span>);</span><br><span class="line">    <span class="keyword">return</span> i &amp; <span class="number">0x3f</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>位运算</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>线程-进程-协程</title>
     <url>/2020/03/20/%E7%BA%BF%E7%A8%8B-%E8%BF%9B%E7%A8%8B-%E5%8D%8F%E7%A8%8B/</url>
     <content><![CDATA[<p>Python中因为有GIL(全局解释器锁)的存在，例如，某个线程想要执行，必须先拿到GIL，我们可以把GIL看作“通行证”，并且在一个Python进程中，GIL只有一个。拿不到通行证的线程就不允许进入CPU执行。每次释放GIL锁，线程之间都会进行锁竞争，而切换线程会消耗资源。由于GIL锁的存在，Python里一个进程永远只能同时执行一个线程（拿到GIL的线程才能执行），这就是在多核CPU上Python的多线程效率不高的原因。</p>
@@ -828,6 +810,214 @@
       </categories>
       <tags>
         <tag>自我介绍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>二进制总结</title>
+    <url>/2019/02/07/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%801.-%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%80%BB%E7%BB%93/</url>
+    <content><![CDATA[<h3 id="1-编码"><a href="#1-编码" class="headerlink" title="1.编码"></a>1.编码</h3><table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">正数</th>
+<th align="left">负数</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">原码</td>
+<td align="left">0本体</td>
+<td align="left">1本体</td>
+</tr>
+<tr>
+<td align="left">补码</td>
+<td align="left">0本体</td>
+<td align="left">按位取反+1(符号位始终为1)</td>
+</tr>
+<tr>
+<td align="left">反码</td>
+<td align="left">0本体</td>
+<td align="left">按位取反(符号位始终为1)</td>
+</tr>
+</tbody></table>
+<h2 id="2-分类"><a href="#2-分类" class="headerlink" title="2.分类"></a>2.分类</h2><h5 id="有符号"><a href="#有符号" class="headerlink" title="有符号:"></a>有符号:</h5><h5 id="无符号"><a href="#无符号" class="headerlink" title="无符号:"></a>无符号:</h5><h2 id="3-位运算"><a href="#3-位运算" class="headerlink" title="3. 位运算"></a>3. 位运算</h2><h4 id="3-1-与-、或、异或"><a href="#3-1-与-、或、异或" class="headerlink" title="3.1 与 、或、异或"></a>3.1 与 、或、异或</h4><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>与(&amp;)</td>
+<td>0&amp;0=0</td>
+<td>1&amp;0=0</td>
+<td>1&amp;1=1</td>
+</tr>
+<tr>
+<td>或(|)</td>
+<td>0|0=0</td>
+<td>0|1=1</td>
+<td>1|1=1</td>
+</tr>
+<tr>
+<td>异或(^)</td>
+<td>0^0=0</td>
+<td>1^0=1</td>
+<td>1^1=0</td>
+</tr>
+</tbody></table>
+<h4 id="3-2-左移"><a href="#3-2-左移" class="headerlink" title="3.2 左移"></a>3.2 左移</h4><h6 id="m-lt-lt-n"><a href="#m-lt-lt-n" class="headerlink" title="m&lt;&lt;n"></a>m&lt;&lt;n</h6><p>表示把m左移n位。往左移n位的时候，最左边的n位将被丢弃，同时在最右边补上n个0.</p>
+<p>exp：</p>
+<p>00<u><strong>001010</strong></u>&lt;&lt;2=<u><strong>001010</strong></u>00</p>
+<p>100<strong><u>01010</u></strong>&lt;&lt;3=<strong><u>01010</u></strong>000</p>
+<h4 id="3-3-右移"><a href="#3-3-右移" class="headerlink" title="3.3 右移"></a>3.3 右移</h4><h6 id="m-gt-gt-n"><a href="#m-gt-gt-n" class="headerlink" title="m&gt;&gt;n"></a>m&gt;&gt;n</h6><p>表示把m右移n位。往右移的时候，最右边的n位将被丢弃。</p>
+<p>如果数字之前是一个正数，则右移之后在最左边补n个0；</p>
+<p>如果数字之前是一个负数，则右移之后在最左边补n个1.</p>
+<p>exp:</p>
+<p><u><strong>000010</strong></u>10&gt;&gt;2=00<u><strong>000010</strong></u></p>
+<p><u><strong>10001</strong></u>010&gt;&gt;3=111<u><strong>10001</strong></u></p>
+<h4 id="3-4-应用"><a href="#3-4-应用" class="headerlink" title="3.4 应用"></a>3.4 应用</h4><h5 id="3-4-1-移位运算代替乘除法"><a href="#3-4-1-移位运算代替乘除法" class="headerlink" title="3.4.1 移位运算代替乘除法"></a>3.4.1 移位运算代替乘除法</h5><h5 id="3-4-2-右移一位-除以2"><a href="#3-4-2-右移一位-除以2" class="headerlink" title="3.4.2 右移一位 == 除以2"></a>3.4.2 右移一位 == 除以2</h5><h5 id="3-4-3-左移一位-乘以2"><a href="#3-4-3-左移一位-乘以2" class="headerlink" title="3.4.3 左移一位 == 乘以2"></a>3.4.3 左移一位 == 乘以2</h5><h6 id="二进制中1的个数"><a href="#二进制中1的个数" class="headerlink" title="二进制中1的个数"></a>二进制中1的个数</h6><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">NumberOf1</span><span class="params">(<span class="keyword">int</span> n)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> count = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span>(n)</span><br><span class="line">    &#123;</span><br><span class="line">        ++count;</span><br><span class="line">        n = (n<span class="number">-1</span>) &amp; n;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> count;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h6 id="不用加减法做加法"><a href="#不用加减法做加法" class="headerlink" title="不用加减法做加法"></a>不用加减法做加法</h6><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> num1,<span class="keyword">int</span> num2)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> sum,carry;</span><br><span class="line">    <span class="keyword">do</span></span><br><span class="line">    &#123;</span><br><span class="line">        sum = num1 ^ num2;</span><br><span class="line">        carry = (num1 &amp; num2) &lt;&lt; <span class="number">1</span>;</span><br><span class="line">        num1 = sum;</span><br><span class="line">        num2 = carry;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">while</span>(num2 !=<span class="number">0</span> );</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> num1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>计算机基础</category>
+      </categories>
+      <tags>
+        <tag>二进制</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>设计模式6大设计原则</title>
+    <url>/2020/04/13/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F6%E5%A4%A7%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/</url>
+    <content><![CDATA[<h1 id="6大设计原则"><a href="#6大设计原则" class="headerlink" title="6大设计原则"></a>6大设计原则</h1><h2 id="单一职责原则"><a href="#单一职责原则" class="headerlink" title="单一职责原则"></a>单一职责原则</h2><p><code>Single Responsibility Principle</code>简称<code>SRP</code></p>
+<h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>​    应该<code>有且仅有一个</code>原因引起<code>类的变更</code>。</p>
+<h3 id="好处"><a href="#好处" class="headerlink" title="好处"></a>好处</h3><ul>
+<li>类的复杂性降低，实现什么职责都有清晰明确的定义；</li>
+<li>可读性提高，复杂性降低，那当然可读性提高了；</li>
+<li>可维护性提高，可读性提高，那当然更容易维护了；</li>
+<li>变更引起的风险降低，变更是必不可少的，如果接口的单一职责做得好，一个接口修改只对相应的实现类有影响，对其他的接口无影响，这对系统的扩展性、维护性都有非常大的帮助。</li>
+</ul>
+<h3 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h3><ul>
+<li>适用于接口、类，同时也适用于方法</li>
+</ul>
+<h3 id="实例"><a href="#实例" class="headerlink" title="实例"></a>实例</h3><p>修改用户信息<code>void changeUser(IUserBO, UserBO, String..changeOpyions)</code>,根据传递的类型不同，把可变长度参数changeOptions修改到userBO这个对象上，并调用持久层的方法保存到数据库中</p>
+<p>拆分为</p>
+<ul>
+<li><code>void changeUserName(String username)</code></li>
+<li><code>void changeHomeAddress(String homeaddress)</code></li>
+<li><code>void changeOfficeTel(String officetel)</code></li>
+</ul>
+<p><code>changeUser</code>方法职责不清晰，不单一;拆分成许多接口，每个方法的职责非常清晰明确，不仅开发简单，而且日后的维护也非常容易</p>
+<h2 id="里氏替换原则"><a href="#里氏替换原则" class="headerlink" title="里氏替换原则"></a>里氏替换原则</h2><p><code>Liskov SubstitutionPrinciple</code>—-<code>LSP</code></p>
+<h3 id="继承"><a href="#继承" class="headerlink" title="继承"></a>继承</h3><h4 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h4><ul>
+<li>代码共享，减少创建类的工作量，每个子类都拥有父类的方法和属性；</li>
+<li>提高代码的重用性；</li>
+<li>子类可以形似父类，但又异于父类，“龙生龙，凤生凤，老鼠生来会打洞”是说子拥有父的“种”，“世界上没有两片完全相同的叶子”是指明子与父的不同；</li>
+<li>提高代码的可扩展性，实现父类的方法就可以“为所欲为”了，君不见很多开源框架的扩展接口都是通过继承父类来完成的；</li>
+<li>提高产品或项目的开放性。</li>
+</ul>
+<h4 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h4><ul>
+<li>继承是侵入性的。只要继承，就必须拥有父类的所有属性和方法；</li>
+<li>降低代码的灵活性。子类必须拥有父类的属性和方法，让子类自由的世界中多了些约束；</li>
+<li>增强了耦合性。当父类的常量、变量和方法被修改时，需要考虑子类的修改，而且在缺乏规范的环境下，这种修改可能带来非常糟糕的结果——大段的代码需要重构。</li>
+</ul>
+<h3 id="定义-1"><a href="#定义-1" class="headerlink" title="定义"></a>定义</h3><ul>
+<li>第一种定义，也是最正宗的定义：If for each object o1 of type S there is an object o2 oftype T such that for all programs P defined in terms of T,the behavior of P is unchangedwhen o1 is substituted for o2 then S is a subtype of T.（如果对每一个类型为S的对象o1，都有类型为T的对象o2，使得以T定义的所有程序P在所有的对象o1都代换成o2时，程序P的行为没有发生变化，那么类型S是类型T的子类型。）</li>
+<li>第二种定义：Functions that use pointers or references to base classes must be able touse objects of derived classes without knowing it.（所有引用基类的地方必须能透明地使用其子类的对象。）</li>
+<li>第二个定义是最清晰明确的，通俗点讲，只要父类能出现的地方子类就可以出现，而且替换为子类也不会产生任何错误或异常，使用者可能根本就不需要知道是父类还是子类。但是，反过来就不行了，有子类出现的地方，父类未必就能适应。</li>
+</ul>
+<h3 id="含义"><a href="#含义" class="headerlink" title="含义"></a>含义</h3><ul>
+<li>1.子类必须完全实现父类的方法</li>
+<li>2.子类可以有自己的个性</li>
+<li>3.覆盖或实现父类的方法时输入参数可以被放大</li>
+<li>4.覆写或实现父类的方法时输出结果可以被缩小</li>
+</ul>
+<h3 id="优点-1"><a href="#优点-1" class="headerlink" title="优点"></a>优点</h3><p>采用里氏替换原则的目的就是增强程序的健壮性，版本升级时也可以保持非常好的兼容性。即使增加子类，原有的子类还可以继续运行。在实际项目中，每个子类对应不同的业务含义，使用父类作为参数，传递不同的子类完成不同的业务逻辑，非常完美！</p>
+<h2 id="依赖倒置原则"><a href="#依赖倒置原则" class="headerlink" title="依赖倒置原则"></a>依赖倒置原则</h2><p><code>Dependence Inversion Principle</code>——<code>DIP</code></p>
+<h3 id="定义-2"><a href="#定义-2" class="headerlink" title="定义"></a>定义</h3><p><code>High level modules should not depend upon low level modules.Both should dependupon abstractions.Abstractions should not depend upon details.Details should dependupon abstractions.</code></p>
+<ul>
+<li>模块间的依赖通过抽象发生，实现类之间不发生直接的依赖关系，其依赖关系是通过接口或抽象类产生的；</li>
+<li>接口或抽象类不依赖于实现类；</li>
+<li>实现类依赖接口或抽象类。</li>
+<li>更加精简的定义就是“面向接口编程”——OOD（Object-Oriented Design，面向对象设计）的精髓之一。</li>
+</ul>
+<h3 id="优点-2"><a href="#优点-2" class="headerlink" title="优点"></a>优点</h3><p>可以减少类间的耦合性，提高系统的稳定性，降低并行开发引起的风险，提高代码的可读性和可维护性。</p>
+<h3 id="应用"><a href="#应用" class="headerlink" title="应用"></a>应用</h3><p>TDD（Test-Driven Development，测试驱动开发）开发模式</p>
+<h3 id="依赖的三种写法"><a href="#依赖的三种写法" class="headerlink" title="依赖的三种写法"></a>依赖的三种写法</h3><ul>
+<li>1.构造函数传递依赖对象</li>
+<li>2.Setter方法传递依赖对象</li>
+<li>3.接口声明依赖对象</li>
+</ul>
+<h3 id="最佳实践"><a href="#最佳实践" class="headerlink" title="最佳实践"></a>最佳实践</h3><ul>
+<li>每个类尽量都有接口或抽象类，或者抽象类和接口两者都具备</li>
+<li>变量的表面类型尽量是接口或者是抽象类</li>
+<li>任何类都不应该从具体类派生</li>
+<li>尽量不要覆写基类的方法</li>
+<li>结合里氏替换原则使用</li>
+</ul>
+<h2 id="接口隔离原则"><a href="#接口隔离原则" class="headerlink" title="接口隔离原则"></a>接口隔离原则</h2><h2 id="接口类型"><a href="#接口类型" class="headerlink" title="接口类型"></a>接口类型</h2><h4 id="实例接口"><a href="#实例接口" class="headerlink" title="实例接口"></a>实例接口</h4><p>实例接口（Object Interface），在Java中声明一个类，然后用new关键字产生一个实例，它是对一个类型的事物的描述，这是一种接口。比如你定义Person这个类，然后使用PersonzhangSan=new Person()产生了一个实例，这个实例要遵从的标准就是Person这个类，Person类就是zhangSan的接口。</p>
+<p><code>java类就是一个接口</code></p>
+<h4 id="类接口"><a href="#类接口" class="headerlink" title="类接口"></a>类接口</h4><p>Java中经常使用的<code>interface</code>关键字定义的接口</p>
+<h2 id="隔离"><a href="#隔离" class="headerlink" title="隔离"></a>隔离</h2><ul>
+<li><p>Clients should not be forced to depend upon interfaces that they don’t use.（客户端不应该依赖它不需要的接口。）</p>
+</li>
+<li><p>The dependency of one class to another one should depend on the smallest possibleinterface.（类间的依赖关系应该建立在最小的接口上。）</p>
+</li>
+<li><p>建立单一接口，不要建立臃肿庞大的接口</p>
+</li>
+<li><p>接口尽量细化，同时接口中的方法尽量少。</p>
+</li>
+</ul>
+<h3 id="与单一职责原则的联系"><a href="#与单一职责原则的联系" class="headerlink" title="与单一职责原则的联系"></a>与单一职责原则的联系</h3><p>接口隔离原则与单一职责的审视角度是不相同的，单一职责要求的是<code>类和接口职责单一</code>，注重的是职责，这是<code>业务逻辑上</code>的划分，而接口隔离原则要求接口的方法尽量少。例如一个接口的职责可能包含10个方法，这10个方法都放在一个接口中，并且提供给多个模块访问，各个模块按照规定的权限来访问，在系统外通过文档约束“不使用的方法不要访问”，按照单一职责原则是允许的，按照接口隔离原则是不允许的，因为它要求“尽量使用多个专门的接口”。专门的接口指什么？就是指提供给每个模块的都应该是单一接口，提供给几个模块就应该有几个接口，而不是建立一个庞大的臃肿的接口，容纳所有的客户端访问。</p>
+<h3 id="规范约束"><a href="#规范约束" class="headerlink" title="规范约束"></a>规范约束</h3><ul>
+<li>接口要尽量小,但<code>不能违反单一职责原则</code></li>
+<li>接口要高内聚</li>
+<li>定制服务</li>
+</ul>
+<h2 id="迪米特法原则"><a href="#迪米特法原则" class="headerlink" title="迪米特法原则"></a>迪米特法原则</h2><p>迪米特法则（Law of Demeter，LoD）也称为最少知识原则（Least Knowledge Principle，LKP）</p>
+<h3 id="规则"><a href="#规则" class="headerlink" title="规则"></a>规则</h3><p>一个对象应该对其他对象有最少的了解。通俗地讲，一个类应该对自己需要耦合或调用的类知道得最少，你（被耦合或调用的类）的内部是如何复杂都和我没关系，那是你的事情，我就知道你提供的这么多public方法，我就调用这么多，其他的我一概不关心。</p>
+<h3 id="含义-1"><a href="#含义-1" class="headerlink" title="含义"></a>含义</h3><ul>
+<li>只和朋友交流</li>
+<li>朋友间也是有距离的</li>
+<li>是自己的就是自己的</li>
+<li>谨慎使用Serializable</li>
+</ul>
+<h2 id="开闭原则"><a href="#开闭原则" class="headerlink" title="开闭原则"></a>开闭原则</h2><h3 id="定义-3"><a href="#定义-3" class="headerlink" title="定义"></a>定义</h3><p>Software entities like classes,modules and functions should be open for extension butclosed for modifications.（一个软件实体如类、模块和函数应该对扩展开放，对修改关闭。）</p>
+<ul>
+<li>软件实体应该对扩展开放，对修改关闭，其含义是说一个软件实体应该通过扩展来实现变化，而不是通过修改已有的代码来实现变化。</li>
+</ul>
+<p>软件实体</p>
+<ul>
+<li>项目或软件产品中按照一定的逻辑规则划分的模块。</li>
+<li>抽象和类。</li>
+<li>方法。</li>
+</ul>
+<h3 id="为什么要采用开闭原则"><a href="#为什么要采用开闭原则" class="headerlink" title="为什么要采用开闭原则"></a>为什么要采用开闭原则</h3><ul>
+<li>开闭原则对测试的影响</li>
+<li>开闭原则可以提高复用性</li>
+<li>开闭原则可以提高可维护性</li>
+<li>面向对象开发的要求</li>
+</ul>
+<h3 id="如何使用开闭原则"><a href="#如何使用开闭原则" class="headerlink" title="如何使用开闭原则"></a>如何使用开闭原则</h3><ul>
+<li>抽象约束</li>
+<li>元数据（metadata）控制模块行为</li>
+<li>制定项目章程</li>
+<li>封装变化</li>
+</ul>
+<h3 id="使用注意事项"><a href="#使用注意事项" class="headerlink" title="使用注意事项"></a>使用注意事项</h3><ul>
+<li>开闭原则也只是一个原则</li>
+<li>项目规章非常重要</li>
+<li>预知变化，拥抱变化</li>
+</ul>
+<h1 id="23设计模式"><a href="#23设计模式" class="headerlink" title="23设计模式"></a>23设计模式</h1>]]></content>
+      <categories>
+        <category>设计模式</category>
+      </categories>
+      <tags>
+        <tag>设计模式</tag>
       </tags>
   </entry>
 </search>
