@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://wadestack.github.io/"/>
-  <updated>2020-04-23T09:23:33.197Z</updated>
+  <updated>2020-04-24T02:37:07.147Z</updated>
   <id>https://wadestack.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从尾到头打印链表</title>
+    <link href="https://wadestack.github.io/2020/04/24/%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8/"/>
+    <id>https://wadestack.github.io/2020/04/24/%E4%BB%8E%E5%B0%BE%E5%88%B0%E5%A4%B4%E6%89%93%E5%8D%B0%E9%93%BE%E8%A1%A8/</id>
+    <published>2020-04-24T02:28:10.000Z</published>
+    <updated>2020-04-24T02:37:07.147Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h1&gt;&lt;p&gt;输入一个链表，按链表从尾到头的顺序返回一个ArrayList。&lt;/p&gt;
+&lt;h1 id=&quot;Java数据结构&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="剑指offer" scheme="https://wadestack.github.io/categories/%E5%89%91%E6%8C%87offer/"/>
+    
+    
+      <category term="算法" scheme="https://wadestack.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="链表" scheme="https://wadestack.github.io/tags/%E9%93%BE%E8%A1%A8/"/>
+    
+  </entry>
   
   <entry>
     <title>是时候该放弃百度网盘了</title>
@@ -77,39 +107,11 @@
   </entry>
   
   <entry>
-    <title>hr面题库</title>
-    <link href="https://wadestack.github.io/2020/04/15/hr%E9%9D%A2%E9%A2%98%E5%BA%93/"/>
-    <id>https://wadestack.github.io/2020/04/15/hr%E9%9D%A2%E9%A2%98%E5%BA%93/</id>
-    <published>2020-04-14T16:00:00.000Z</published>
-    <updated>2020-04-21T04:43:24.597Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt; [TOC]&lt;/p&gt;
-&lt;h1 id=&quot;自我相关&quot;&gt;&lt;a href=&quot;#自我相关&quot; class=&quot;headerlink&quot; title=&quot;自我相关&quot;&gt;&lt;/a&gt;自我相关&lt;/h1&gt;&lt;h2 id=&quot;1-请你做一下自我介绍&quot;&gt;&lt;a href=&quot;#1-请你做一下自我介绍&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="面试题" scheme="https://wadestack.github.io/categories/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    
-    
-      <category term="hr面" scheme="https://wadestack.github.io/tags/hr%E9%9D%A2/"/>
-    
-  </entry>
-  
-  <entry>
     <title>设计模式6大设计原则</title>
     <link href="https://wadestack.github.io/2020/04/13/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F6%E5%A4%A7%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/"/>
     <id>https://wadestack.github.io/2020/04/13/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F6%E5%A4%A7%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/</id>
     <published>2020-04-12T16:00:00.000Z</published>
-    <updated>2020-04-21T06:07:55.270Z</updated>
+    <updated>2020-04-24T02:42:27.249Z</updated>
     
     <summary type="html">
     
